@@ -2,96 +2,144 @@
   type: map
   contents:
     - name: Full Name
-      value: Albert Einstein
-    - name: Date of Birth
-      value: 14th March 1879
+      value: Zlatan Ajanović
+    - name: Email
+      value: zlatan.ajanovic@gmail.com
+    - name: Nationality
+      value: Bosnian
     - name: Languages
-      value: English, German
+      value: English, German, Bosnian
 
 - title: Education
   type: time_table
   contents:
-    - title: PhD
-      institution: University of Zurich, Zurich, Switzerland
-      year: 1905
+    - title: PhD (Summa cum laude)
+      institution: Graz University of Technology, Austria
+      year: Mar. 2016 – Dec. 2019
       description:
-        - Description 1.
-        - Description 2.
-        - title: Description 3.
-          contents:
-            - Sub-description 1.
-            - Sub-description 2.
-    - title: Federal teaching diploma
-      institution: Eidgenössische Technische Hochschule, Zurich, Switzerland
-      year: 1900
+        - Institute of Automation and Control (Prof. Martin Horn)
+        - Dissertation — “Towards SuperHuman Autonomous Vehicles”
+        - Co-supervisor — Prof. Antonella Ferrara (University of Pavia)
+    - title: BSc & MSc in Electrical Engineering (Automatic Control, Electronics and Robotics)
+      institution: University of Sarajevo, Bosnia and Herzegovina
+      year: 2007 – 2015
       description:
-        - Description 1.
-        - Description 2.
+        - MSc — Hybrid EV propulsion control (AVL List GmbH)
+        - BSc — Design and Modeling of an Air Cushion Vehicle
 
-- title: Experience
+- title: Academic Experience
   type: time_table
   contents:
-    - title: Professor of Theoretical Physics
-      institution: Institute for Advanced Study, Princeton University
-      year: 1933 - 1955
+    - title: Postdoctoral Researcher
+      institution: RWTH Aachen University, Germany
+      year: Sept. 2023 – Present
       description:
-        - Description 1.
-        - Description 2.
-        - title: Description 3.
-          contents:
-            - Sub-description 1.
-            - Sub-description 2.
-    - title: Visiting Professor
-      institution: California Institute of Technology, Pasadena, California, US
-      year: 1933
+        - ERC Advanced Grant RLeap (Prof. Hector Geffner)
+        - Chair of Machine Learning and Reasoning
+        - Abstractions and general policies for hybrid discrete–continuous problems (TAMP)
+        - Teaching assistant; supervising MSc/BSc students
+    - title: Postdoctoral Researcher
+      institution: Delft University of Technology, Netherlands
+      year: Sept. 2021 – Aug. 2023
       description:
-        - Description 1.
-        - Description 2.
-
-    - title: Director
-      institution: Kaiser Wilhelm Institute for Physics, Berlin, Germany.
-      year: 1917-1933
-
-    - title: Professor of Theoretical Physics
-      institution: Karl-Ferdinand University, Prague, Czechoslovakia
-      year: 1911 - 1917
+        - ERC StG TERI (Prof. Jens Kober), Cognitive Robotics
+        - Interactive Robot Learning, Hierarchical RL, AI Planning
+        - Taught two MSc courses; supervised five MSc students
+        - Postdoc representative; coordinated AI & Robotics seminar series
+    - title: External Lecturer
+      institution: University of Applied Sciences Technikum Wien, Austria
+      year: Sept. 2020 – Sept. 2022
       description:
+        - Mechatronics/Robotics Master Program (remote)
+    - title: Guest Researcher
+      institution: Delft University of Technology, Netherlands
+      year: Jul. 2017 – Aug. 2017
+      description:
+        - Cognitive Robotics; ITEAM secondment with Dr. Barys Shyrokau
 
-    - title: Associate Professor of Theoretical Physics
-      institution: University of Zurich, Zurich, Switzerland
-      year: 1909 - 1911
-
-- title: Open Source Projects
+- title: Professional Experience
   type: time_table
   contents:
-    - title: <a href="https://github.com/alshedivat/al-folio">al-folio</a>
-      year: 2015-now
-      description: A beautiful, simple, clean, and responsive Jekyll theme for academics.
+    - title: Senior Researcher
+      institution: VIRTUAL VEHICLE Research Center, Graz, Austria
+      year: Jan. 2016 – Aug. 2021
+      description:
+        - Led “Planning and Control for Autonomous Vehicles” cluster
+        - MSCA ITN ITEAM supervisory board; ECSEL NewControl core team
+        - Technical lead — NewControl, COSMOS
+        - Supervised 4 MSc; mentored 3 PhD students
+    - title: Guest Researcher
+      institution: Volvo Cars, Gothenburg, Sweden
+      year: Jun. – Aug. 2019
+      description:
+        - ITEAM secondment; testing AD functions with AstaZero
+    - title: Guest Researcher
+      institution: AVL List GmbH, Graz, Austria
+      year: Dec. 2018
+      description:
+        - ML for motion planning; RSS workshop paper
+    - title: Intern
+      institution: AVL List GmbH, Graz, Austria
+      year: Mar. 2014 – Apr. 2015
+      description:
+        - 48V mild HEV controls (Master Thesis), HEV Controls Dept.
+    - title: Technologist
+      institution: Prevent Group, Visoko, Bosnia and Herzegovina
+      year: 2012 (full-time), 2012–2014 (part-time)
+      description:
+        - Stood up a new production process (now 200+ staff)
+        - “Eureka” innovation program; ML vision QC; managed 3-person team
 
-- title: Honors and Awards
+- title: Honors & Awards
   type: time_table
   contents:
-    - year: 1921
+    - year: 2023
       items:
-        - Nobel Prize in Physics
-        - Matteucci Medal
-    - year: 2029
+        - DAAD AInet Fellowship — Postdoctoral Networking Tour in AI (Postdoc-NeT-AI)
+    - year: 2020
       items:
-        - Max Planck Medal
+        - Invited attendee — Virtual Heidelberg Laureate Forum
+    - year: 2019
+      items:
+        - Hans List Fonds — Best PhD Thesis Scholarship (AVL List GmbH)
+    - year: 2018
+      items:
+        - IFAC Young Author Award — Best Paper, CTS 2018
+    - year: 2016
+      items:
+        - Marie Skłodowska-Curie ESR Fellowship, European Commission
+    - year: 2005
+      items:
+        - 1st place — Federal Physics Olympiad (Mechanics & Thermodynamics)
 
-- title: Academic Interests
-  type: nested_list
+- title: Leadership & Community Engagement
+  type: time_table
   contents:
-    - title: Topic 1.
-      items:
-        - Description 1.
-        - Description 2.
-    - title: Topic 2.
-      items:
-        - Description 1.
-        - Description 2.
+    - title: Co-Founder, Board Member, Program Manager
+      institution: Association for Advancement of Science and Technology (AAST)
+      year: 2017 – Present
+      description:
+        - Project leader — STEM Youth Camp (funded by U.S. Embassy in B&H), Science@Home Challenge, Diaspora Round Table, and others.
+        - Responsible for project portfolio organization and coordination.
+        - Member of the governing board.
+    - title: President, Local Committee Sarajevo; Coordinator, Central European Project
+      institution: IAESTE — International Association for the Exchange of Students for Technical Experience
+      year: Oct. 2012 – May 2016
+      description:
+        - Led 6-country *Improve of Exchange* project; managed 30+ members.
+        - Organized job-raising campaigns (+24 % offers year-over-year).
+        - Conducted senior workshops in project/process management and leadership.
 
-- title: Other Interests
+- title: Service & Leadership
   type: list
   contents:
-    - <u>Hobbies:</u> Hobby 1, Hobby 2, etc.
+    - Postdoc representative; coordinator of AI & Robotics seminar series (TU Delft)
+    - Topic cluster lead, Planning & Control for Autonomous Vehicles (VIF)
+    - Supervisory board member, MSCA ITN ITEAM; core team, ECSEL NewControl
+
+- title: Research Interests
+  type: list
+  contents:
+    - Robot learning, AI planning, motion planning
+    - Learning-based control and reinforcement learning
+    - Task and motion planning for autonomous systems
