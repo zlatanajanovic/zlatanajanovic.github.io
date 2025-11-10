@@ -8,25 +8,27 @@ profile:
   align: right
   image: prof_pic.jpg
   image_circular: true # crops the image to make it circular
-  address: >
-    <p>34.F-1-480</p>
-    <p>Mekelweg 2</p>
-    <p>Delft, Netherlands</p>
+  # more_info: >
+  #   <p>34.F-1-480</p>
+  #   <p>Mekelweg 2</p>
+  #   <p>Delft, Netherlands</p>
 
-social: true  # includes social icons at the bottom of the page
-news: true  # includes a list of news items
-latest_posts: false  # includes a list of the newest posts
-selected_papers: false # includes a list of papers marked as "selected={true}"
+selected_papers: true # includes a list of papers marked as "selected={true}"
+social: true # includes social icons at the bottom of the page
+
+announcements:
+  enabled: true # includes a list of news items
+  scrollable: true # adds a vertical scroll bar if there are more than 3 news items
+  limit: 5 # leave blank to include all the news in the `_news` folder
+
 ---
 Hello,
 
-I am a Postdoctoral Researcher in the Cognitive Robotics Department (CoR), Delft University of Technology (Netherlands) with Prof. Jens Kober. 
+I am a roboticist researching AI methods for machine learning and reasoning to enable autonomous robots in the wild.
 
-Previously, I received a master's degree from the Univesity of Sarajevo (Bosnia and Herzegovina) and a PhD degree from the Graz University of Technology (Austria), all focused on Automation and Control. Previously, as a Marie Skłodowska-Curie Fellow, I was a senior researcher at VIRTUAL VEHICLE Research GmbH, Graz (Austria), a visiting researcher at TU Delft, University of Sarajevo, AVL List and Volvo Cars.
+I am a Postdoctoral Researcher at the Chair of Machine Learning and Reasoning at RWTH Aachen University with Prof. Hector Geffner. Earlier, I was a postdoctoral researcher in the Cognitive Robotics Department (CoR) at Delft University of Technology (Netherlands) with Prof. Jens Kober. My background includes a PhD in Automation and Control from Graz University of Technology and an MSc from the University of Sarajevo. As a Marie Skłodowska-Curie Fellow, I conducted research at VIRTUAL VEHICLE Research GmbH and held visiting roles at TU Delft, the University of Sarajevo, AVL List, and Volvo Cars.
 
-My main research interest lies in the Decision-making and Control of Autonomous Robots based on Planning, Learning and Control Theory. 
-
-For my work, I recieved the IFAC Young Author Award and Hans List Award (PhD thesis).
+For my work, I have received several best paper awards and the Hans List Award for my PhD thesis.
 
 <!--Write your biography here. Tell the world about yourself. Link to your favorite [subreddit](http://reddit.com). You can put a picture in, too. The code is already in, just name your picture `prof_pic.jpg` and put it in the `img/` folder.
 
@@ -34,3 +36,4 @@ Put your address / P.O. box / other info right below your picture. You can also 
 
 Link to your social media connections, too. This theme is set up to use [Font Awesome icons](http://fortawesome.github.io/Font-Awesome/) and [Academicons](https://jpswalsh.github.io/academicons/), like the ones below. Add your Facebook, Twitter, LinkedIn, Google Scholar, or just disable all of them.
 -->
+

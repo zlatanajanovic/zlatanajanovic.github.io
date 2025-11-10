@@ -3,8 +3,6 @@
   contents:
     - name: Full Name
       value: Zlatan Ajanović
-    - name: Email
-      value: zlatan.ajanovic@gmail.com
     - name: Nationality
       value: Bosnian
     - name: Languages
@@ -36,7 +34,7 @@
       description:
         - ERC Advanced Grant RLeap (Prof. Hector Geffner)
         - Chair of Machine Learning and Reasoning
-        - Abstractions and general policies for hybrid discrete–continuous problems (TAMP)
+        - Learning abstractions and general policies for hybrid discrete–continuous problems (TAMP)
         - Teaching assistant; supervising MSc/BSc students
     - title: Postdoctoral Researcher
       institution: Delft University of Technology, Netherlands
@@ -44,7 +42,7 @@
       description:
         - ERC StG TERI (Prof. Jens Kober), Cognitive Robotics
         - Interactive Robot Learning, Hierarchical RL, AI Planning
-        - Taught two MSc courses; supervised five MSc students
+        - Taught in two MSc courses; supervised five MSc students
         - Postdoc representative; coordinated AI & Robotics seminar series
     - title: External Lecturer
       institution: University of Applied Sciences Technikum Wien, Austria
