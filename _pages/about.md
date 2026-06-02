@@ -24,11 +24,13 @@ announcements:
 ---
 Hello,
 
-I am a roboticist researching AI methods for machine learning and reasoning to enable autonomous robots in the wild.
+I am a roboticist developing novel AI methods for machine learning and reasoning to enable autonomous robots in the wild.
 
-I am a Postdoctoral Researcher at the Chair of Machine Learning and Reasoning at RWTH Aachen University with Prof. Hector Geffner. Earlier, I was a postdoctoral researcher in the Cognitive Robotics Department (CoR) at Delft University of Technology (Netherlands) with Prof. Jens Kober. My background includes a PhD in Automation and Control from Graz University of Technology and an MSc from the University of Sarajevo. As a Marie Skłodowska-Curie Fellow, I conducted research at VIRTUAL VEHICLE Research GmbH and held visiting roles at TU Delft, the University of Sarajevo, AVL List, and Volvo Cars.
+Recently, I joined Technikum Wien as a Senior Lecturer and Researcher and I also work on a stealth startup.
 
-For my work, I have received several best paper awards and the Hans List Award for my PhD thesis.
+Previously, I was a postdoctoral researcher at the Chair of Machine Learning and Reasoning at RWTH Aachen University with Prof. Hector Geffner, and a postdoctoral researcher in the Cognitive Robotics Department at Delft University of Technology with Prof. Jens Kober. I hold a PhD in Automation and Control from Graz University of Technology and an MSc from the University of Sarajevo. As a Marie Sklodowska-Curie Fellow, I conducted research at VIRTUAL VEHICLE Research GmbH and held visiting roles at TU Delft, the University of Sarajevo, AVL List, and Volvo Cars.
+
+My work has been recognized with several best paper awards, the Hans List Award for my PhD thesis, and the DAAD AInet Postdoctoral Fellowship.
 
 <!--Write your biography here. Tell the world about yourself. Link to your favorite [subreddit](http://reddit.com). You can put a picture in, too. The code is already in, just name your picture `prof_pic.jpg` and put it in the `img/` folder.
 
