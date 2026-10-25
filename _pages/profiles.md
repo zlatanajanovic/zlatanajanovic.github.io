@@ -4,7 +4,7 @@ permalink: /bio/
 title: bio
 description: my bio
 nav: true
-nav_order: 8
+nav_order: 10
 
 profiles:
   # if you want to include more than one profile, just replicate the following block

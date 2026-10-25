@@ -4,10 +4,14 @@ permalink: /people/
 title: people
 description: I had great honor to collaborate with and mentor many curious students!
 nav: true
-nav_order: 7
+nav_order: 9
+_styles: >
+  article h2 { font-size: 1.4rem; margin-top: 1.5rem; margin-bottom: 0.75rem; }
+  article h3 { font-size: 1.15rem; margin-top: 1.25rem; margin-bottom: 0.5rem; }
 ---
 
 ### Doctoral students (PhD)
+- **Alessandro Scherl**, UAS Technikum Wien – University of Alicante (2026–).  
 - **Jelle Luijkx**, *Interactive Robot Skill Learning*, TU Delft — informal mentoring, supervised by Profs. Jens Kober and Laura Ferranti. Published 5 papers. (2022–)  
 - **Marlies Mischinger**, *Automated Driving on Highways Using Reinforcement Learning*, VIF–TU Graz (2019–2021) — supervised by Prof. Martin Fellendorf.  
 - **Kailin Tong**, *Planning for Automated Driving*, VIF–TU Graz (2019–2021) — supervised by Prof. Martin Horn. Published ITSC paper.  
@@ -28,7 +32,7 @@ nav_order: 7
 - **Bhargav Adabala**, *Multi-heuristic Search-based Motion Planning*, FH Joanneum (2018–2020) — in AVL List; workshop and conference papers.  
 - **Christian Benkovic**, *Beacon-based Localisation of Autonomous Vehicles*, TU Graz (2017–2019) — with Prof. Daniel Watzenig; now in Magna.  
 - **Pallav Rawat**, *Environment Perception for Autonomous Driving*, KTH Stockholm (2018) — with Prof. John Folkesson; now in Scania.  
-- **Mirza Hasanbegović**, *Kinematic Design and Pattern Optimization for Adaptive Shading Systems*, TH Rosenheim (2025–) — ANNT PSI project.  
+- **Mirza Hasanbegović**, *Kinematic Design and Pattern Optimization for Adaptive Shading Systems*, TH Rosenheim (2025) — ANNT PSI project.  
 
 ---
 
@@ -39,7 +43,8 @@ nav_order: 7
 ---
 
 ### Research assignements and projects (RA)
-- **Muhamed Ramić**, *Manipulability-Aware Design of Household Robot Assistant*, ANNT PSI (2025–) — Received MEXT scholarship for Tohoku Univ.  
+- **Wessel Wolterbeek Muller**, *Efficient Exploration in Reinforcement Learning*, TU Delft (2026).  
+- **Muhamed Ramić**, *Manipulability-Aware Design of Household Robot Assistant*, ANNT PSI (2025–) — Received MEXT scholarship.  
 - **Edo Fejzić**, *AI Agent for Knight’s Tour*, ANNT PSI (2021–2023) — admitted to MSc Data Science, Sapienza Rome.  
 - **Hana Ćatić**, *Search-based Task and Motion Planning*, ANNT PSI (2022–2023) — accepted to EPFL MSc Robotics; EAAI journal co-author.  
 - **Adna Šestić**, *Learning for Task and Motion Planning*, ANNT PSI (2022).  

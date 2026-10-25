@@ -1,6 +1,6 @@
 ---
 layout: about
-title: about
+title: home
 permalink: /
 subtitle: #<a href='tudelft.nl'>TU Delft</a> #. Address. Contacts. Moto. Etc.
 

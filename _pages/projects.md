@@ -5,6 +5,9 @@ title: projects
 nav: true
 nav_order: 4
 description: Research and innovation projects.
+_styles: >
+  article h2 { font-size: 1.4rem; margin-top: 1.5rem; margin-bottom: 0.75rem; }
+  article h3 { font-size: 1.15rem; margin-top: 1.25rem; margin-bottom: 0.5rem; }
 ---
 
 ## Not involved in project acquisition
