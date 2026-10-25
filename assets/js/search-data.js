@@ -3,8 +3,8 @@ const ninja = document.querySelector('ninja-keys');
 
 // add the home and posts menu items
 ninja.data = [{
-    id: "nav-about",
-    title: "about",
+    id: "nav-home",
+    title: "home",
     section: "Navigation",
     handler: () => {
       window.location.href = "/";
@@ -30,19 +30,26 @@ ninja.data = [{
           handler: () => {
             window.location.href = "/projects/";
           },
-        },{id: "nav-repositories",
-          title: "repositories",
-          description: "",
-          section: "Navigation",
-          handler: () => {
-            window.location.href = "/repositories/";
-          },
         },{id: "nav-teaching",
           title: "teaching",
-          description: "courses, lectures, and invited talks",
+          description: "courses and lectures",
           section: "Navigation",
           handler: () => {
             window.location.href = "/teaching/";
+          },
+        },{id: "nav-talks",
+          title: "talks",
+          description: "invited talks, tutorials, and panels",
+          section: "Navigation",
+          handler: () => {
+            window.location.href = "/talks/";
+          },
+        },{id: "nav-service",
+          title: "service",
+          description: "academic service, event organization, and reviewing",
+          section: "Navigation",
+          handler: () => {
+            window.location.href = "/service/";
           },
         },{id: "nav-people",
           title: "people",
@@ -495,11 +502,32 @@ ninja.data = [{
           section: "News",},{id: "news-our-article-sequentially-teaching-sequential-tasks-st-2-teaching-robots-long-horizon-manipulation-skills-was-accepted-to-ieee-ram",
           title: 'Our article Sequentially Teaching Sequential Tasks (ST)2: Teaching Robots Long-Horizon Manipulation Skills was...',
           description: "",
+          section: "News",},{id: "news-joined-uas-technikum-wien-in-vienna-austria-as-a-senior-lecturer-and-researcher",
+          title: 'Joined UAS Technikum Wien in Vienna, Austria, as a Senior Lecturer and Researcher....',
+          description: "",
+          section: "News",},{id: "news-co-organizing-the-1st-ieee-ras-summer-school-in-germany-decision-making-for-cognitive-robots-4th-edition-of-the-summer-school-on-cognitive-robotics-6-11-september-2026-abtei-frauenwörth-chiemsee-germany",
+          title: 'Co-organizing the 1st IEEE RAS Summer School in Germany — Decision-Making for Cognitive...',
+          description: "",
           section: "News",},{id: "news-serving-as-an-area-chair-for-conference-on-robot-learning-corl",
           title: 'Serving as an Area Chair for Conference on Robot Learning (CoRL).',
           description: "",
           section: "News",},{id: "news-organizing-xplore-cross-disciplinary-aspects-of-exploration-in-robotics-reinforcement-learning-and-search-at-icra-2026",
           title: 'Organizing Xplore - Cross-Disciplinary aspects of Exploration in Robotics, Reinforcement Learning and Search...',
+          description: "",
+          section: "News",},{id: "news-co-organized-the-bridging-the-gap-between-ai-planning-and-reinforcement-learning-prl-workshop-at-icaps-2026-in-dublin-ireland",
+          title: 'Co-organized the Bridging the Gap Between AI Planning and Reinforcement Learning (PRL) workshop...',
+          description: "",
+          section: "News",},{id: "news-attended-the-eastern-european-machine-learning-summer-school-eeml-2026-in-cetinje-montenegro",
+          title: 'Attended the Eastern European Machine Learning Summer School (EEML 2026) in Cetinje, Montenegro....',
+          description: "",
+          section: "News",},{id: "news-co-organized-the-caipi-amp-amp-prl-workshop-on-bridging-the-gap-between-ai-planning-and-reinforcement-learning-at-ijcai-2026-in-bremen-germany",
+          title: 'Co-organized the CAIPI&amp;amp;amp;PRL workshop on Bridging the Gap Between AI Planning and Reinforcement...',
+          description: "",
+          section: "News",},{id: "news-our-paper-symbolizer-symbolic-model-free-task-planning-with-vlms-was-accepted-to-ieee-robotics-and-automation-letters-ra-l",
+          title: 'Our paper SYMBOLIZER: Symbolic Model-free Task Planning with VLMs was accepted to IEEE...',
+          description: "",
+          section: "News",},{id: "news-serving-as-an-associate-editor-for-robot-learning-topics-at-ieee-icra-2027",
+          title: 'Serving as an Associate Editor for Robot Learning topics at IEEE ICRA 2027....',
           description: "",
           section: "News",},{id: "projects-project-1",
           title: 'project 1',
@@ -558,7 +586,7 @@ ninja.data = [{
         title: 'email',
         section: 'Socials',
         handler: () => {
-          window.open("mailto:%7A%6C%61%74%61%6E.%61%6A%61%6E%6F%76%69%63@%6D%6C.%72%77%74%68-%61%61%63%68%65%6E.%64%65", "_blank");
+          window.open("mailto:%7A%6C%61%74%61%6E.%61%6A%61%6E%6F%76%69%63@%74%65%63%68%6E%69%6B%75%6D-%77%69%65%6E.%61%74", "_blank");
         },
       },{
         id: 'social-github',
