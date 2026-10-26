@@ -25,7 +25,7 @@ _styles: >
   Marie Skłodowska-Curie fellow; dissemination workpackage lead and supervisory board member.
 
 
-## Involved in project acquisition
+## Contributed and involved in project acquisition
 
 - **Horizon Europe – [INSIGHT](https://ec.europa.eu/info/funding-tenders/opportunities/portal/screen/opportunities/topic-details/horizon-widera-2024-talents-03-01)** (2024–ongoing)  
   Contributor (ANNT). Focused on researcher career development. 11 partners, 2 M EUR budget.
