@@ -20,6 +20,7 @@ _styles: >
 ---
 
 ### Master theses (MT)
+- **Karthik Swaminathan**, *Planning with Latent World Models*, TU Delft (2026–) — co-supervised with Andreu Matoses Gimenez and Prof. Javier Alonso-Mora.  
 - **Mirza Hasanbegović**, *Kinematic Design and Pattern Optimization for Adaptive Shading Systems*, TH Rosenheim (2025) — ANNT PSI project.  
 - **Benjamin Kraljušić**, *Search-based Motion Planning Using Burrs of Free C-space*, Uni Sarajevo (2024–2025) — with Prof. Bakir Lacevic. Accepted ICAT paper.  
 - **George Sotirchos**, *Search Inspired Reinforcement Learning*, TU Delft (2024–2025) — with Prof. Jens Kober. ICAPS PlanRob WS paper, ICLR submission.  
