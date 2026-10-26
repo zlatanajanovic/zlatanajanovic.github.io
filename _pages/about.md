@@ -31,7 +31,7 @@ I am a roboticist developing novel AI methods for machine learning and reasoning
 
 Recently, I joined Technikum Wien as a Senior Lecturer and Researcher and I also work on a stealth startup.
 
-Previously, I was a postdoctoral researcher at the Chair of Machine Learning and Reasoning at RWTH Aachen University with Prof. Hector Geffner, and a postdoctoral researcher in the Cognitive Robotics Department at Delft University of Technology with Prof. Jens Kober. I hold a PhD in Automation and Control from Graz University of Technology and an MSc from the University of Sarajevo. As a Marie Skłodowska-Curie Fellow, I conducted research at VIRTUAL VEHICLE Research GmbH and held visiting roles at TU Delft, the University of Sarajevo, AVL List, and Volvo Cars.
+Previously, I was a postdoctoral researcher at the Chair of Machine Learning and Reasoning at RWTH Aachen University with Prof. Hector Geffner, and a postdoctoral researcher in the Cognitive Robotics Department at Delft University of Technology with Prof. Jens Kober, where we started training VLAs before the ChatGPT revolution. I hold a PhD in Automation and Control from Graz University of Technology and an MSc from the University of Sarajevo. As a Marie Skłodowska-Curie Fellow, I conducted research at VIRTUAL VEHICLE Research GmbH and held visiting roles at TU Delft, the University of Sarajevo, AVL List, and Volvo Cars.
 
 Before that, at Prevent, I led a team that set up an automotive production line and trained neural networks for detecting faults before the AlexNet revolution, and at AVL I contributed to series-production control software for hybrid vehicles.
 
