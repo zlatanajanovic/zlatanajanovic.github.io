@@ -23,7 +23,7 @@ _styles: >
 - **Mirza Hasanbegović**, *Kinematic Design and Pattern Optimization for Adaptive Shading Systems*, TH Rosenheim (2025) — ANNT PSI project.  
 - **Benjamin Kraljušić**, *Search-based Motion Planning Using Burrs of Free C-space*, Uni Sarajevo (2024–2025) — with Prof. Bakir Lacevic. Accepted ICAT paper.  
 - **George Sotirchos**, *Search Inspired Reinforcement Learning*, TU Delft (2024–2025) — with Prof. Jens Kober. ICAPS PlanRob WS paper, ICLR submission.  
-- **Sami Azirar**, *Partially-Observable Width-Based Search*, RWTH Aachen (2024–2025) — with Profs. Hector Geffner and Sebastian Trimpe. T-RO submission in progress.  
+- **Sami Azirar**, *Partially-Observable Width-Based Search*, RWTH Aachen (2024–2025) — with Profs. Hector Geffner and Sebastian Trimpe. RA-L paper.  
 - **Youssef Abdelhamid**, *Hierarchical RL for Automated Driving*, RWTH Aachen (2024) — with Prof. Hector Geffner and IKA institute. Accepted ICAT paper.  
 - **Davor Bokan**, *SLOPE: Search with Learned Optimal Pruning-based Expansion*, Uni Sarajevo (2023–2024) — with Prof. Bakir Lacevic. ICAPS PRL WS paper, AAAI submission.  
 - **Runyu Ma**, *Robot Learning Skills Through LLMs and RL*, TU Delft (2023–2024) — with Prof. Jens Kober. Papers at RSS WS and ICRA.  
