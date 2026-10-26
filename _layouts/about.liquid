@@ -43,13 +43,13 @@ layout: default
             cache_bust=true
           %}
         {% endif %}
-        {% if page.profile.more_info %}
-          <div class="more-info">{{ page.profile.more_info }}</div>
-        {% endif %}
         {% if page.social %}
           <div class="social mt-2">
             <div class="contact-icons" style="font-size: 1.5rem">{% social_links %}</div>
           </div>
+        {% endif %}
+        {% if page.profile.more_info %}
+          <div class="more-info mt-2" style="text-align: center">{{ page.profile.more_info }}</div>
         {% endif %}
       </div>
     {% endif %}
