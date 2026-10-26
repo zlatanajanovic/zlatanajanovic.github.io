@@ -10,7 +10,7 @@ _styles: >
   article h3 { font-size: 1.15rem; margin-top: 1.25rem; margin-bottom: 0.5rem; }
 ---
 
-## Contributed
+### Contributed
 
 - **ERC Advanced Grant – [RLeaP](https://cordis.europa.eu/project/id/885107)** (2023–2025)  
   Postdoctoral researcher under Prof. Hector Geffner. Focus on representation learning for hybrid discrete–continuous robotic planning.
@@ -25,7 +25,7 @@ _styles: >
   Marie Skłodowska-Curie fellow; dissemination workpackage lead and supervisory board member.
 
 
-## Contributed and involved in project acquisition
+### Contributed and involved in project acquisition
 
 - **Horizon Europe – [INSIGHT](https://ec.europa.eu/info/funding-tenders/opportunities/portal/screen/opportunities/topic-details/horizon-widera-2024-talents-03-01)** (2024–ongoing)  
   Contributor (ANNT). Focused on researcher career development. 11 partners, 2 M EUR budget.
