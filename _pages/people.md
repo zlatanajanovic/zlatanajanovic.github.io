@@ -33,7 +33,6 @@ _styles: >
 - **Rafael Becker**, *Interactive Learning of Skills and Object Affordances*, TU Delft (2023–2024) — with Prof. Jens Kober.  
 - **Eveline Drijver**, *Robotic Packaging Optimization with RL and Real-World Data*, TU Delft (2022–2023) — with Prof. Cosimo Della Santina (BluePrint Automation, CASE paper).  
 - **Bhargav Adabala**, *Multi-heuristic Search-based Motion Planning*, FH Joanneum (2018–2020) — in AVL List; workshop and conference papers.  
-- **Christian Benkovic**, *Beacon-based Localisation of Autonomous Vehicles*, TU Graz (2017–2019) — with Prof. Daniel Watzenig; now in Magna.  
 - **Pallav Rawat**, *Environment Perception for Autonomous Driving*, KTH Stockholm (2018) — with Prof. John Folkesson; now in Scania.  
 
 ---
