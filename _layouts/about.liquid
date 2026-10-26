@@ -20,6 +20,8 @@ layout: default
       .about-columns > .profile { float: none !important; flex: 0 0 30%; max-width: 30%; margin: 0 !important; }
       .about-columns > .about-text { flex: 1 1 auto; min-width: 0; }
       .about-columns.profile-right { flex-direction: row-reverse; }
+      .about-columns .more-info { margin-top: 1rem !important; line-height: 1.25; font-size: 0.9rem; }
+      .about-columns .more-info p { display: block; margin: 0; }
       @media (max-width: 576px) {
         .about-columns, .about-columns.profile-right { flex-direction: column; }
         .about-columns > .profile { flex-basis: auto; max-width: 100%; width: 100%; }
@@ -49,7 +51,7 @@ layout: default
           </div>
         {% endif %}
         {% if page.profile.more_info %}
-          <div class="more-info mt-2" style="text-align: center">{{ page.profile.more_info }}</div>
+          <div class="more-info" style="text-align: center">{{ page.profile.more_info }}</div>
         {% endif %}
       </div>
     {% endif %}
