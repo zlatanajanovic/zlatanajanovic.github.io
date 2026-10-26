@@ -1,143 +1,172 @@
-- title: General Information
-  type: map
-  contents:
-    - name: Full Name
-      value: Zlatan Ajanović
-    - name: Nationality
-      value: Bosnian
-    - name: Languages
-      value: English, German, Bosnian
+cv:
+  name: Zlatan Ajanović
+  label: Senior Lecturer and Researcher, UAS Technikum Wien
+  email: zlatan.ajanovic@technikum-wien.at
+  location: Vienna, Austria
+  website: https://zlatanajanovic.com
 
-- title: Education
-  type: time_table
-  contents:
-    - title: PhD (Summa cum laude)
-      institution: Graz University of Technology, Austria
-      year: Mar. 2016 – Dec. 2019
-      description:
-        - Institute of Automation and Control (Prof. Martin Horn)
-        - Dissertation — “Towards SuperHuman Autonomous Vehicles”
-        - Co-supervisor — Prof. Antonella Ferrara (University of Pavia)
-    - title: BSc & MSc in Electrical Engineering (Automatic Control, Electronics and Robotics)
-      institution: University of Sarajevo, Bosnia and Herzegovina
-      year: 2007 – 2015
-      description:
-        - MSc — Hybrid EV propulsion control (AVL List GmbH)
-        - BSc — Design and Modeling of an Air Cushion Vehicle
+  sections:
+    Education:
+      - institution: Graz University of Technology
+        location: Graz, Austria
+        area: Automation and Control
+        studyType: PhD (Summa cum laude)
+        start_date: 2016-03
+        end_date: 2019-12
+        highlights:
+          - Institute of Automation and Control (Prof. Martin Horn)
+          - Dissertation — “Towards SuperHuman Autonomous Vehicles”
+          - Co-supervisor — Prof. Antonella Ferrara (University of Pavia)
 
-- title: Academic Experience
-  type: time_table
-  contents:
-    - title: Postdoctoral Researcher
-      institution: RWTH Aachen University, Germany
-      year: Sept. 2023 – Present
-      description:
-        - ERC Advanced Grant RLeap (Prof. Hector Geffner)
-        - Chair of Machine Learning and Reasoning
-        - Learning abstractions and general policies for hybrid discrete–continuous problems (TAMP)
-        - Teaching assistant; supervising MSc/BSc students
-    - title: Postdoctoral Researcher
-      institution: Delft University of Technology, Netherlands
-      year: Sept. 2021 – Aug. 2023
-      description:
-        - ERC StG TERI (Prof. Jens Kober), Cognitive Robotics
-        - Interactive Robot Learning, Hierarchical RL, AI Planning
-        - Taught in two MSc courses; supervised five MSc students
-        - Postdoc representative; coordinated AI & Robotics seminar series
-    - title: External Lecturer
-      institution: University of Applied Sciences Technikum Wien, Austria
-      year: Sept. 2020 – Sept. 2022
-      description:
-        - Mechatronics/Robotics Master Program (remote)
-    - title: Guest Researcher
-      institution: Delft University of Technology, Netherlands
-      year: Jul. 2017 – Aug. 2017
-      description:
-        - Cognitive Robotics; ITEAM secondment with Dr. Barys Shyrokau
+      - institution: University of Sarajevo
+        location: Sarajevo, B&H
+        area: Electrical Engineering (Automatic Control, Electronics and Robotics)
+        studyType: BSc & MSc
+        start_date: 2007
+        end_date: 2015
+        highlights:
+          - MSc — Hybrid EV propulsion control (AVL List GmbH)
+          - BSc — Design and Modeling of an Air Cushion Vehicle
 
-- title: Professional Experience
-  type: time_table
-  contents:
-    - title: Senior Researcher
-      institution: VIRTUAL VEHICLE Research Center, Graz, Austria
-      year: Jan. 2016 – Aug. 2021
-      description:
-        - Led “Planning and Control for Autonomous Vehicles” cluster
-        - MSCA ITN ITEAM supervisory board; ECSEL NewControl core team
-        - Technical lead — NewControl, COSMOS
-        - Supervised 4 MSc; mentored 3 PhD students
-    - title: Guest Researcher
-      institution: Volvo Cars, Gothenburg, Sweden
-      year: Jun. – Aug. 2019
-      description:
-        - ITEAM secondment; testing AD functions with AstaZero
-    - title: Guest Researcher
-      institution: AVL List GmbH, Graz, Austria
-      year: Dec. 2018
-      description:
-        - ML for motion planning; RSS workshop paper
-    - title: Intern
-      institution: AVL List GmbH, Graz, Austria
-      year: Mar. 2014 – Apr. 2015
-      description:
-        - 48V mild HEV controls (Master Thesis), HEV Controls Dept.
-    - title: Technologist
-      institution: Prevent Group, Visoko, Bosnia and Herzegovina
-      year: 2012 (full-time), 2012–2014 (part-time)
-      description:
-        - Stood up a new production process (now 200+ staff)
-        - “Eureka” innovation program; ML vision QC; managed 3-person team
+    Experience:
+      - company: UAS Technikum Wien
+        position: Senior Lecturer and Researcher
+        location: Vienna, Austria
+        start_date: 2026-04
+        highlights:
+          - Teaching Robotics in AI (AI M.Sc.), Mobile and Service Robotics (Robotics Engineering B.Sc.), and Robot Learning (Robotics Engineering M.Sc.)
 
-- title: Honors & Awards
-  type: time_table
-  contents:
-    - year: 2023
-      items:
-        - DAAD AInet Fellowship — Postdoctoral Networking Tour in AI (Postdoc-NeT-AI)
-    - year: 2020
-      items:
-        - Invited attendee — Virtual Heidelberg Laureate Forum
-    - year: 2019
-      items:
-        - Hans List Fonds — Best PhD Thesis Scholarship (AVL List GmbH)
-    - year: 2018
-      items:
-        - IFAC Young Author Award — Best Paper, CTS 2018
-    - year: 2016
-      items:
-        - Marie Skłodowska-Curie ESR Fellowship, European Commission
-    - year: 2005
-      items:
-        - 1st place — Federal Physics Olympiad (Mechanics & Thermodynamics)
+      - company: RWTH Aachen University
+        position: Postdoctoral Researcher
+        location: Aachen, Germany
+        start_date: 2023-09
+        highlights:
+          - ERC Advanced Grant RLeaP (Prof. Hector Geffner)
+          - Chair of Machine Learning and Reasoning
+          - Learning abstractions and general policies for hybrid discrete–continuous problems (TAMP)
+          - Teaching assistant; supervising MSc/BSc students
 
-- title: Leadership & Community Engagement
-  type: time_table
-  contents:
-    - title: Co-Founder, Board Member, Program Manager
-      institution: Association for Advancement of Science and Technology (AAST)
-      year: 2017 – Present
-      description:
-        - Project leader — STEM Youth Camp (funded by U.S. Embassy in B&H), Science@Home Challenge, Diaspora Round Table, and others.
-        - Responsible for project portfolio organization and coordination.
-        - Member of the governing board.
-    - title: President, Local Committee Sarajevo; Coordinator, Central European Project
-      institution: IAESTE — International Association for the Exchange of Students for Technical Experience
-      year: Oct. 2012 – May 2016
-      description:
-        - Led 6-country *Improve of Exchange* project; managed 30+ members.
-        - Organized job-raising campaigns (+24 % offers year-over-year).
-        - Conducted senior workshops in project/process management and leadership.
+      - company: Delft University of Technology
+        position: Postdoctoral Researcher
+        location: Delft, Netherlands
+        start_date: 2021-09
+        end_date: 2023-08
+        highlights:
+          - ERC StG TERI (Prof. Jens Kober), Cognitive Robotics
+          - Interactive Robot Learning, Hierarchical RL, AI Planning
+          - Taught in two MSc courses; supervised five MSc students
+          - Postdoc representative; coordinated AI & Robotics seminar series
 
-- title: Service & Leadership
-  type: list
-  contents:
-    - Postdoc representative; coordinator of AI & Robotics seminar series (TU Delft)
-    - Topic cluster lead, Planning & Control for Autonomous Vehicles (VIF)
-    - Supervisory board member, MSCA ITN ITEAM; core team, ECSEL NewControl
+      - company: University of Applied Sciences Technikum Wien
+        position: External Lecturer
+        location: Vienna, Austria (remote)
+        start_date: 2020-09
+        end_date: 2022-09
+        highlights:
+          - Mechatronics/Robotics Master Program
 
-- title: Research Interests
-  type: list
-  contents:
-    - Robot learning, AI planning, motion planning
-    - Learning-based control and reinforcement learning
-    - Task and motion planning for autonomous systems
+      - company: VIRTUAL VEHICLE Research Center
+        position: Senior Researcher
+        location: Graz, Austria
+        start_date: 2016-01
+        end_date: 2021-08
+        highlights:
+          - Led “Planning and Control for Autonomous Vehicles” cluster
+          - MSCA ITN ITEAM supervisory board; ECSEL NewControl core team
+          - Technical lead — NewControl, COSMOS
+          - Supervised 4 MSc; mentored 3 PhD students
+
+      - company: Volvo Cars
+        position: Guest Researcher
+        location: Gothenburg, Sweden
+        date: 2019-06
+        highlights:
+          - ITEAM secondment; testing AD functions with AstaZero
+
+      - company: AVL List GmbH
+        position: Guest Researcher
+        location: Graz, Austria
+        date: 2018-12
+        highlights:
+          - ML for motion planning; RSS workshop paper
+
+      - company: Delft University of Technology
+        position: Guest Researcher
+        location: Delft, Netherlands
+        date: 2017-07
+        highlights:
+          - Cognitive Robotics; ITEAM secondment with Dr. Barys Shyrokau
+
+      - company: AVL List GmbH
+        position: Intern
+        location: Graz, Austria
+        start_date: 2014-03
+        end_date: 2015-04
+        highlights:
+          - 48V mild HEV controls (Master Thesis), HEV Controls Dept.
+
+      - company: Prevent Group
+        position: Technologist
+        location: Visoko, B&H
+        start_date: 2012
+        end_date: 2014
+        summary: Full-time in 2012, part-time 2012–2014.
+        highlights:
+          - Stood up a new production process (now 200+ staff)
+          - “Eureka” innovation program; ML vision QC; managed 3-person team
+
+    Volunteer:
+      - company: Association for Advancement of Science and Technology (ANNT)
+        position: Co-Founder, Board Member, Program Manager
+        start_date: 2017
+        highlights:
+          - Project leader — STEM Youth Camp (funded by U.S. Embassy in B&H), Science@Home Challenge, Diaspora Round Table, and others.
+          - Responsible for project portfolio organization and coordination.
+          - Member of the governing board.
+
+      - company: IAESTE — International Association for the Exchange of Students for Technical Experience
+        position: President, Local Committee Sarajevo; Coordinator, Central European Project
+        location: Sarajevo, B&H
+        start_date: 2012-10
+        end_date: 2016-05
+        highlights:
+          - Led 6-country *Improve of Exchange* project; managed 30+ members.
+          - Organized job-raising campaigns (+24 % offers year-over-year).
+          - Conducted senior workshops in project/process management and leadership.
+
+    Awards:
+      - title: DAAD AInet Fellowship — Postdoctoral Networking Tour in AI (Postdoc-NeT-AI)
+        date: 2023
+        awarder: DAAD
+
+      - title: Invited attendee — Virtual Heidelberg Laureate Forum
+        date: 2020
+        awarder: Heidelberg Laureate Forum Foundation
+
+      - title: Hans List Fonds — Best PhD Thesis Scholarship
+        date: 2019
+        awarder: AVL List GmbH
+
+      - title: IFAC Young Author Award — Best Paper, CTS 2018
+        date: 2018
+        awarder: IFAC
+
+      - title: Marie Skłodowska-Curie ESR Fellowship
+        date: 2016
+        awarder: European Commission
+
+      - title: 1st place — Federal Physics Olympiad (Mechanics & Thermodynamics)
+        date: 2005
+
+    Service & Leadership:
+      - bullet: Postdoc representative; coordinator of AI & Robotics seminar series (TU Delft)
+      - bullet: Topic cluster lead, Planning & Control for Autonomous Vehicles (VIF)
+      - bullet: Supervisory board member, MSCA ITN ITEAM; core team, ECSEL NewControl
+
+    Research Interests:
+      - bullet: Robot learning, AI planning, motion planning
+      - bullet: Learning-based control and reinforcement learning
+      - bullet: Task and motion planning for autonomous systems
+
+    Spoken Languages:
+      - bullet: English, German, Bosnian
