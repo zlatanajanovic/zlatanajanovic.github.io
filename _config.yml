@@ -275,7 +275,7 @@ display_categories: ["external-services"] # these categories will be displayed o
 
 scholar:
 
-  last_name: [Ajanovic, Ajanovi\'c]
+  last_name: [Ajanovic, Ajanović, Ajanovi\'c]
   first_name: [Zlatan, Z.]
 
   style: apa
