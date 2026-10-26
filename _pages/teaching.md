@@ -11,8 +11,8 @@ _styles: >
 
 ### University of Applied Sciences Technikum Wien — Vienna, Austria · 2026–present
 - **Robotics in AI**, WS2026 — AI M.Sc.
-- **Mobile and Service Robotics** — Robotics Engineering B.Sc.
-- **Robot Learning** — Robotics Engineering M.Sc.
+- **Mobile and Service Robotics**, WS2026 — Robotics Engineering B.Sc.
+- **Robot Learning**, WS2026 — Robotics Engineering M.Sc.
 
 ### RWTH Aachen University — Aachen, Germany · 2023–present
 - **Lab Course Robot Task and Motion Planning (12.04000)**, WS2024 — course design support, TAMP lecture, mentoring one group.  
