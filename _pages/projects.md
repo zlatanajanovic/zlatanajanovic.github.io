@@ -38,6 +38,3 @@ _styles: >
 
 - **[STEM Youth Camp](https://www.annt.ba/bs/article/16/stem-youth-camp-2018-pregled-i-utisci)** (2018)  
   Project manager (ANNT). First funded ANNT project, supported by the US Embassy in B&H; 50 students, 20 k EUR budget.
-
-- **H2020 MSCA ITN Proposal (not funded)** (2019–2020)  
-  Initiator and coordinator (VIF). Assembled 19 partners (TU Munich, Uni Basel, CMU, Volvo, VW, Waymo …). 4 M EUR budget.
