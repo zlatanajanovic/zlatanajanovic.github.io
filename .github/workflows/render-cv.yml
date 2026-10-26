@@ -1,14 +1,7 @@
 name: Render a CV
 on:
-  push:
-    branches:
-      - main
-      - master
-    paths:
-      - "_data/cv.yml"
-      - "assets/rendercv/design.yaml"
-      - "assets/rendercv/locale.yaml"
-      - "assets/rendercv/settings.yaml"
+  # No push trigger: this site does not publish a PDF CV (and RenderCV 2.x
+  # rejects al-folio CV fields such as `label`). Run manually if ever needed.
   workflow_call:
   workflow_dispatch:
 permissions:
