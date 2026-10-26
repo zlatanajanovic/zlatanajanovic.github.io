@@ -8,7 +8,6 @@
 # acm_id:
 # blogger_url:
 # bluesky_url:
-dblp_url: https://dblp.uni-trier.de/pid/211/7900.html # your DBLP profile url
 # discord_id:
 email: zlatan.ajanovic@technikum-wien.at # your email address
 # facebook_id:
@@ -32,8 +31,9 @@ orcid_id: 0000-0003-2214-0007 # your ORCID ID
 # pinterest_id:
 # publons_id:
 # quora_username:
-research_gate_profile: Zlatan-Ajanovic # your profile on ResearchGate
 scholar_userid: xOHyrYAAAAAJ # your Google Scholar ID
+dblp_url: https://dblp.uni-trier.de/pid/211/7900.html # your DBLP profile url
+research_gate_profile: Zlatan-Ajanovic # your profile on ResearchGate
 # scopus_id:
 # semanticscholar_id:
 # spotify_id:
