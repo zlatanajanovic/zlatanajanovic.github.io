@@ -12,7 +12,7 @@ description: invited talks, tutorials, and panels
 - **<a href="https://sites.google.com/cs.miami.edu/scr-icra26/">SCR@Home</a>** — Invited talk and panel, ICRA 2026 Workshop on Human-Centered Robotic Autonomy, Vienna, Austria, Jun 2026.
 - **<a href="https://seeaisummit.org/">Southeast Europe AI Summit 2026</a>** — Panel “State of AI in Southeast Europe”, Novi Sad, Serbia, 28 May 2026.
 - **<a href="https://ai2future.com/">AI2Future 2025</a>** — Invited talk, “Machine Learning and Reasoning for Intelligent Robot”, Zagreb, Croatia, 30 Oct 2025.
-- **<a href="https://www.eeml.eu/">EEML 2025</a>** — Moderating panel “AI potential in Bosnia and Herzegovina”, Sarajevo, B&H, 24 Aug 2025.
+- **<a href="https://www.eeml.eu/previous-editions/eeml2025">EEML 2025</a>** — Moderating panel “AI potential in Bosnia and Herzegovina”, Sarajevo, B&H, 24 Aug 2025.
 - **<a href="https://roboticslab.pe/vrils2025en">V-RILS 2025</a>** — “Learning and Reasoning for Long Horizon Robotic Manipulation”, Online, Peru, 29 May 2025.
 - **<a href="https://www.linkedin.com/posts/zlatanajanovic_late-night-shift-in-netherlands-preparing-activity-7310603224669970433-TTle?utm_source=share&utm_medium=member_desktop&rcm=ACoAAA6XpBQBu22jzHb8IysGebct0ZBSiqA1L1w">NASA Jet Propulsion Laboratory (JPL)</a>** — “Search-based Task and Motion Planning: Towards Agile Autonomous Robots.” Pasadena, USA (online), 25 Mar 2024.
 - **<a href="https://www.linkedin.com/posts/pro2future_talk2future-robots-vlms-activity-7290287794210369536-awJJ">Pro2Future — Talk2Future</a>** — “AI Planning and Learning for Intelligent Robots.” Online, Austria, 24 Jan 2025.
