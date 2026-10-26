@@ -33,6 +33,8 @@ Recently, I joined Technikum Wien as a Senior Lecturer and Researcher and I also
 
 Previously, I was a postdoctoral researcher at the Chair of Machine Learning and Reasoning at RWTH Aachen University with Prof. Hector Geffner, and a postdoctoral researcher in the Cognitive Robotics Department at Delft University of Technology with Prof. Jens Kober. I hold a PhD in Automation and Control from Graz University of Technology and an MSc from the University of Sarajevo. As a Marie Skłodowska-Curie Fellow, I conducted research at VIRTUAL VEHICLE Research GmbH and held visiting roles at TU Delft, the University of Sarajevo, AVL List, and Volvo Cars.
 
+Before that, at Prevent, I led a team that set up an automotive production line and trained neural networks for detecting faults before the AlexNet revolution, and at AVL I contributed to series-production control software for hybrid vehicles.
+
 My work has been recognized with several best paper awards, the Hans List Award for my PhD thesis, and the DAAD AInet Postdoctoral Fellowship.
 
 <!--Write your biography here. Tell the world about yourself. Link to your favorite [subreddit](http://reddit.com). You can put a picture in, too. The code is already in, just name your picture `prof_pic.jpg` and put it in the `img/` folder.
