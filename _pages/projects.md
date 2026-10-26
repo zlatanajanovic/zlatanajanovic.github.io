@@ -10,7 +10,7 @@ _styles: >
   article h3 { font-size: 1.15rem; margin-top: 1.25rem; margin-bottom: 0.5rem; }
 ---
 
-## Not involved in project acquisition
+## Contributed
 
 - **ERC Advanced Grant – [RLeaP](https://cordis.europa.eu/project/id/885107)** (2023–2025)  
   Postdoctoral researcher under Prof. Hector Geffner. Focus on representation learning for hybrid discrete–continuous robotic planning.
