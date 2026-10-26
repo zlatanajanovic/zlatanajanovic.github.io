@@ -8,16 +8,15 @@ description: academic service, event organization, and reviewing
 _styles: >
   article h2 { font-size: 1.4rem; margin-top: 1.5rem; margin-bottom: 0.75rem; }
   article h3 { font-size: 1.15rem; margin-top: 1.25rem; margin-bottom: 0.5rem; }
+  article h4 { font-size: 1rem; margin-top: 1rem; margin-bottom: 0.4rem; }
 ---
 
-## Leadership
+### Leadership
 
 - **Co-Chair – Secretary**, <a href="https://r8.ieee.org/germany-ras/executive-committee/">IEEE Robotics and Automation Society Germany (IEEE RAS DE)</a>, since 2024.
 - **Founding Board Member**, <a href="https://www.annt.ba/">ANNT – Association for Advancement of Science and Technology</a>, since 2017 (3rd re-election). Led the first ANNT project, <a href="https://www.annt.ba/bs/article/16/stem-youth-camp-2018-pregled-i-utisci">STEM Youth Camp</a> (2018), and co-authored position papers on <a href="https://arxiv.org/abs/2209.03990">AI</a> and <a href="https://arxiv.org/abs/2501.14773">research</a>.
 
----
-
-## Event organization
+### Event organization
 
 - **Co-Organizer**, <a href="https://r8.ieee.org/germany-ras/2026/05/11/ieee-ras-german-summer-schools-2026/">IEEE RAS Summer School in Germany — Decision-Making for Cognitive Robots</a>, Summer School, 2026.
 - **Co-Organizer**, <a href="https://seeaisummit.org/">South-East Europe AI Summit (SEE AI Summit)</a>, Conference, 2026.
@@ -30,9 +29,7 @@ _styles: >
 - **Co-Organizer**, <a href="https://bnaic2023.tudelft.nl/">Joint International Scientific Conferences on AI and ML (BNAIC/BeNeLearn)</a>, Conference, 2023.
 - **Co-Organizer / Initiator**, <a href="https://life-long-learning-with-human-help-l3h2.github.io/">ICRA Workshop on Life-Long Learning with Human Help (L3H2)</a>, Workshop, 2023.
 
----
-
-## Editorial and committee roles
+### Editorial and committee roles
 
 - **Area Chair**, <a href="https://www.corl.org/">CoRL: Conference on Robot Learning</a>, since 2026.
 - **Associate Editor**, <a href="https://www.ieee-ras.org/conferences-workshops/fully-sponsored/icra">IEEE ICRA: International Conference on Robotics and Automation</a>, since 2025.
@@ -40,11 +37,9 @@ _styles: >
 - **Associate Editor**, <a href="https://www.ieee-ras.org/conferences-workshops/financially-co-sponsored/iros">IEEE/RSJ IROS: International Conference on Intelligent Robots and Systems</a>, since 2023.
 - **Program Committee Member**, <a href="https://icaps21.icaps-conference.org/Committee/reviewers.html">ICAPS: International Conference on Automated Planning and Scheduling</a>, since 2021.
 
----
+### Reviewing
 
-## Reviewing
-
-### Journals
+#### Journals
 
 - <a href="https://ieeexplore.ieee.org/xpl/RecentIssue.jsp?punumber=8860">IEEE T-RO: Transactions on Robotics</a>, since 2022
 - <a href="https://journals.sagepub.com/home/ijr">IJRR: International Journal of Robotics Research</a>, since 2023
@@ -54,7 +49,7 @@ _styles: >
 - <a href="https://ieeexplore.ieee.org/xpl/RecentIssue.jsp?punumber=7083369">IEEE RA-L: Robotics and Automation Letters</a>, since 2018
 - <a href="https://www.sciencedirect.com/journal/automatica">IFAC Automatica</a>, since 2018
 
-### Conferences
+#### Conferences
 
 - <a href="https://iclr.cc/">ICLR: International Conference on Learning Representations</a>, since 2024
 - <a href="https://roboticsconference.org/">RSS: Robotics: Science and Systems</a>, since 2024

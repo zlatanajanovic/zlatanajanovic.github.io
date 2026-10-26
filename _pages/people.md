@@ -17,8 +17,6 @@ _styles: >
 - **Kailin Tong**, *Planning for Automated Driving*, VIF–TU Graz (2019–2021) — supervised by Prof. Martin Horn. Published ITSC paper.  
 - **Rudolf Reiter**, *Model Predictive Control of Autonomous Vehicles*, VIF–Uni Freiburg (2019–2020) — supervised by Prof. Moritz Diehl.  
 
----
-
 ### Master theses (MT)
 - **Karthik Swaminathan**, *Planning with Latent World Models*, TU Delft (2026–) — co-supervised with Andreu Matoses Gimenez and Prof. Javier Alonso-Mora.  
 - **Peyman Shamsi**, *Interactively Training Flow-based VLAs*, PoliTo (2026–).  
@@ -35,13 +33,9 @@ _styles: >
 - **Bhargav Adabala**, *Multi-heuristic Search-based Motion Planning*, FH Joanneum (2018–2020) — in AVL List; workshop and conference papers.  
 - **Pallav Rawat**, *Environment Perception for Autonomous Driving*, KTH Stockholm (2018) — with Prof. John Folkesson; now in Scania.  
 
----
-
 ### Bachelor theses (BT)
 - **Leon Hamm**, *Tree of Thoughts Using Width-based Search*, RWTH Aachen (2024–2025).  
 - **Baran Dello**, *Learning Critical Regions via Action Feasibility Constraints in Task and Motion Planning*, RWTH Aachen (2024–2025).
-
----
 
 ### Research assignements and projects (RA)
 - **Wessel Wolterbeek Muller**, *Efficient Exploration in Reinforcement Learning*, TU Delft (2026–).  
