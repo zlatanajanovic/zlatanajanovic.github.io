@@ -15,6 +15,17 @@ layout: default
   </header>
 
   <article>
+    <style>
+      .about-columns { display: flex; gap: 2rem; align-items: flex-start; }
+      .about-columns > .profile { float: none !important; flex: 0 0 30%; max-width: 30%; margin: 0 !important; }
+      .about-columns > .about-text { flex: 1 1 auto; min-width: 0; }
+      .about-columns.profile-right { flex-direction: row-reverse; }
+      @media (max-width: 576px) {
+        .about-columns, .about-columns.profile-right { flex-direction: column; }
+        .about-columns > .profile { flex-basis: auto; max-width: 100%; width: 100%; }
+      }
+    </style>
+    <div class="about-columns{% if page.profile.align != 'left' %} profile-right{% endif %}">
     {% if page.profile %}
       <div class="profile float-{% if page.profile.align == 'left' %}left{% else %}right{% endif %}">
         {% if page.profile.image %}
@@ -43,7 +54,8 @@ layout: default
       </div>
     {% endif %}
 
-    <div class="clearfix">{{ content }}</div>
+    <div class="clearfix about-text">{{ content }}</div>
+    </div>
 
     <!-- News -->
     {% if page.announcements and page.announcements.enabled %}
