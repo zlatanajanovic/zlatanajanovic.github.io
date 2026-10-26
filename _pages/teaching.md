@@ -4,18 +4,15 @@ permalink: /teaching/
 title: teaching
 nav: true
 nav_order: 6
-description: courses and lectures
 _styles: >
   article h2 { font-size: 1.4rem; margin-top: 1.5rem; margin-bottom: 0.75rem; }
   article h3 { font-size: 1.15rem; margin-top: 1.25rem; margin-bottom: 0.5rem; }
 ---
 
-## Teaching experience
-
 ### University of Applied Sciences Technikum Wien — Vienna, Austria · 2026–present
-- **Robotics in AI**, WS2026 — AI master's program.
-- **Mobile and Service Robotics** — Robotics Engineering bachelor's program.
-- **Robot Learning** — Robotics Engineering master's program.
+- **Robotics in AI**, WS2026 — AI M.Sc.
+- **Mobile and Service Robotics** — Robotics Engineering B.Sc.
+- **Robot Learning** — Robotics Engineering M.Sc.
 
 ### RWTH Aachen University — Aachen, Germany · 2023–present
 - **Lab Course Robot Task and Motion Planning (12.04000)**, WS2024 — course design support, TAMP lecture, mentoring one group.  
@@ -48,4 +45,3 @@ _styles: >
 - ADAS workshop moderator at the Intelligent Vehicles International Summer School.
 - Lecture: *Motion Planning for Automated Driving*.  
   <a href="https://iteam-project.net/">project link</a>
-

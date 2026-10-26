@@ -22,9 +22,7 @@ _styles: >
 - **Co-Organizer**, <a href="https://r8.ieee.org/germany-ras/2026/05/11/ieee-ras-german-summer-schools-2026/">IEEE RAS Summer School in Germany — Decision-Making for Cognitive Robots</a>, Summer School, 2026.
 - **Co-Organizer**, <a href="https://seeaisummit.org/">South-East Europe AI Summit (SEE AI Summit)</a>, Conference, 2026.
 - **Co-Organizer / Initiator**, <a href="https://xplore-workshop.github.io/">ICRA Workshop on Exploration in Robotics, Reinforcement Learning and Search (Xplore)</a>, Workshop, 2026.
-- **Co-Organizer**, <a href="https://prl-theworkshop.github.io/caipi_prl2026-ijcai/">IJCAI Workshop on Bridging the Gap Between AI Planning and Reinforcement Learning (PRL)</a>, Workshop, 2026.
-- **Co-Organizer**, <a href="https://prl-theworkshop.github.io/prl2025-icaps/">ICAPS Workshop on Bridging the Gap Between AI Planning and Reinforcement Learning (PRL)</a>, Workshop, 2025, 2026.
-- **Co-Organizer**, <a href="https://prl-theworkshop.github.io/prl2025-aaai/">AAAI Workshop on Bridging the Gap Between AI Planning and Reinforcement Learning (PRL)</a>, Workshop, 2025.
+- **Co-Organizer**, <a href="https://prl-theworkshop.github.io/">Workshop on Bridging the Gap Between AI Planning and Reinforcement Learning (PRL)</a>, Workshop series (IJCAI <a href="https://prl-theworkshop.github.io/caipi_prl2026-ijcai/">2026</a>; ICAPS <a href="https://prl-theworkshop.github.io/prl2026-icaps/">2026</a>, <a href="https://prl-theworkshop.github.io/prl2025-icaps/">2025</a>; AAAI <a href="https://prl-theworkshop.github.io/prl2025-aaai/">2025</a>).
 - **Co-Organizer**, <a href="https://icaps25.icaps-conference.org/program/workshops/planrob/">ICAPS 2025 Workshop on Planning and Robotics (PlanRob)</a>, Workshop, 2025.
 - **Co-Organizer**, <a href="https://www.eeml.eu/previous-editions/eeml2025">Eastern European Machine Learning Summer School (EEML)</a>, Summer School, 2025.
 - **Co-Organizer**, <a href="https://icaps24.icaps-conference.org/committees/organizers/">International Conference on Automated Planning and Scheduling (ICAPS)</a>, Conference, 2024.
@@ -37,9 +35,9 @@ _styles: >
 ## Editorial and committee roles
 
 - **Area Chair**, <a href="https://www.corl.org/">CoRL: Conference on Robot Learning</a>, since 2026.
-- **Associate Editor**, IEEE ICRA: International Conference on Robotics and Automation, since 2025.
-- **Associate Editor**, IEEE ITSC 2024: International Conference on Intelligent Transportation Systems, 2024.
-- **Associate Editor**, IEEE/RSJ IROS: International Conference on Intelligent Robots and Systems, since 2023.
+- **Associate Editor**, <a href="https://www.ieee-ras.org/conferences-workshops/fully-sponsored/icra">IEEE ICRA: International Conference on Robotics and Automation</a>, since 2025.
+- **Associate Editor**, <a href="https://ieee-itsc.org/2024/">IEEE ITSC 2024: International Conference on Intelligent Transportation Systems</a>, 2024.
+- **Associate Editor**, <a href="https://www.ieee-ras.org/conferences-workshops/financially-co-sponsored/iros">IEEE/RSJ IROS: International Conference on Intelligent Robots and Systems</a>, since 2023.
 - **Program Committee Member**, <a href="https://icaps21.icaps-conference.org/Committee/reviewers.html">ICAPS: International Conference on Automated Planning and Scheduling</a>, since 2021.
 
 ---
@@ -59,10 +57,10 @@ _styles: >
 ### Conferences
 
 - <a href="https://iclr.cc/">ICLR: International Conference on Learning Representations</a>, since 2024
-- RSS: Robotics: Science and Systems, since 2024
-- CoRL: Conference on Robot Learning, since 2023
-- CDC: IEEE Conference on Decision and Control, since 2020
-- ICRA: IEEE International Conference on Robotics and Automation, since 2019
-- ACC: American Control Conference, since 2019
-- ECC: European Control Conference, since 2019
-- IROS: IEEE/RSJ International Conference on Intelligent Robots and Systems, since 2018
+- <a href="https://roboticsconference.org/">RSS: Robotics: Science and Systems</a>, since 2024
+- <a href="https://www.corl.org/">CoRL: Conference on Robot Learning</a>, since 2023
+- <a href="https://ieeecss.org/conferences">CDC: IEEE Conference on Decision and Control</a>, since 2020
+- <a href="https://www.ieee-ras.org/conferences-workshops/fully-sponsored/icra">ICRA: IEEE International Conference on Robotics and Automation</a>, since 2019
+- <a href="https://a2c2.org/">ACC: American Control Conference</a>, since 2019
+- <a href="https://euca-ecc.org/">ECC: European Control Conference</a>, since 2019
+- <a href="https://www.ieee-ras.org/conferences-workshops/financially-co-sponsored/iros">IROS: IEEE/RSJ International Conference on Intelligent Robots and Systems</a>, since 2018
