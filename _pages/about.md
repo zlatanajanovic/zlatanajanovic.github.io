@@ -5,16 +5,16 @@ permalink: /
 scholar:
   sort_by: selected_order
   order: ascending
-subtitle: #<a href='tudelft.nl'>TU Delft</a> #. Address. Contacts. Moto. Etc.
+subtitle: Dr.techn.
 
 profile:
   align: left
   image: prof_pic.jpg
   image_circular: true # crops the image to make it circular
-  # more_info: >
-  #   <p>34.F-1-480</p>
-  #   <p>Mekelweg 2</p>
-  #   <p>Delft, Netherlands</p>
+  more_info: >
+    <p>UAS Technikum Wien</p>
+    <p>Höchstädtplatz 6</p>
+    <p>1200 Vienna, Austria</p>
 
 selected_papers: true # includes a list of papers marked as "selected={true}"
 social: true # includes social icons under the profile photo
