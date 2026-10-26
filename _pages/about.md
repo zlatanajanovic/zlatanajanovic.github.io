@@ -2,6 +2,9 @@
 layout: about
 title: about
 permalink: /
+scholar:
+  sort_by: selected_order
+  order: ascending
 subtitle: #<a href='tudelft.nl'>TU Delft</a> #. Address. Contacts. Moto. Etc.
 
 profile:
