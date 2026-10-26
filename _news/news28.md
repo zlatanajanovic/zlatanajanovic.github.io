@@ -5,4 +5,4 @@ inline: true
 related_posts: false
 ---
 
-Our paper <a href="https://arxiv.org/abs/2604.17830">SYMBOLIZER: Symbolic Model-free Task Planning with VLMs</a> was accepted to IEEE Robotics and Automation Letters (RA-L).
+Our paper <a href="https://doi.org/10.1109/LRA.2026.3726377">SYMBOLIZER: Symbolic Model-free Task Planning with VLMs</a> was accepted to IEEE Robotics and Automation Letters (RA-L).
