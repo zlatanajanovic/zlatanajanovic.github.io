@@ -57,7 +57,15 @@
 } /* Generic.Output */ /* Generic.Prompt */ /* Generic.Strong */ /* Generic.Subheading */
 .highlight .gt {
   color: #d22323;
-} /* Generic.Traceback */ /* Keyword.Constant */ /* Keyword.Declaration */ /* Keyword.Namespace */ /* Keyword.Pseudo */ /* Keyword.Reserved */ /* Keyword.Type */ /* Literal.Date */
+} /* Generic.Traceback */ /* Keyword.Constant */ /* Keyword.Declaration */
+.highlight .kn {
+  color: #6ab825;
+  font-weight: bold;
+} /* Keyword.Namespace */ /* Keyword.Pseudo */ /* Keyword.Reserved */
+.highlight .kt {
+  color: #6ab825;
+  font-weight: bold;
+} /* Keyword.Type */ /* Literal.Date */
 .highlight .m {
   color: #3677a9;
 } /* Literal.Number */
@@ -88,7 +96,11 @@
 } /* Name.Exception */ /* Name.Function */
 .highlight .nl {
   color: #d0d0d0;
-} /* Name.Label */ /* Name.Namespace */ /* Name.Other */
+} /* Name.Label */
+.highlight .nn {
+  color: #447fcf;
+  text-decoration: underline;
+} /* Name.Namespace */ /* Name.Other */
 .highlight .py {
   color: #d0d0d0;
 } /* Name.Property */
@@ -107,7 +119,10 @@
 } /* Literal.Number.Integer */
 .highlight .mo {
   color: #3677a9;
-} /* Literal.Number.Oct */ /* Literal.String.Backtick */ /* Literal.String.Char */ /* Literal.String.Doc */ /* Literal.String.Double */ /* Literal.String.Escape */
+} /* Literal.Number.Oct */ /* Literal.String.Backtick */ /* Literal.String.Char */ /* Literal.String.Doc */ /* Literal.String.Double */
+.highlight .se {
+  color: #ed9d13;
+} /* Literal.String.Escape */
 .highlight .sh {
   color: #ed9d13;
 } /* Literal.String.Heredoc */ /* Literal.String.Interpol */ /* Literal.String.Other */ /* Literal.String.Regex */ /* Literal.String.Single */ /* Literal.String.Symbol */

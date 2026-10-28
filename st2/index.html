@@ -1,0 +1,739 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="description"
+        content="(ST)²: Sequentially Teaching Sequential Tasks. A sequential method for teaching robots long-horizon manipulation skills in which the human teacher segments the task on the fly, evaluated in a 16-participant user study on a supermarket restocking task.">
+  <meta name="keywords" content="(ST)2, ST2, robot learning, interactive imitation learning, learning from demonstration, long-horizon manipulation, kinesthetic teaching, user study, SIMPLe">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>(ST)²: Sequentially Teaching Sequential Tasks</title>
+
+  <!-- Open Graph / social preview -->
+  <meta property="og:title" content="(ST)²: Sequentially Teaching Sequential Tasks">
+  <meta property="og:description" content="Teaching robots long-horizon manipulation skills by letting the teacher segment the task on the fly. IEEE Robotics &amp; Automation Magazine.">
+  <meta property="og:image" content="./static/images/eyecatcher.jpg">
+  <meta property="og:type" content="website">
+
+  <link href="https://fonts.googleapis.com/css?family=Google+Sans|Noto+Sans|Castoro" rel="stylesheet">
+
+  <link rel="stylesheet" href="./static/css/bulma.min.css">
+  <link rel="stylesheet" href="./static/css/bulma-carousel.min.css">
+  <link rel="stylesheet" href="./static/css/bulma-slider.min.css">
+  <link rel="stylesheet" href="./static/css/fontawesome.all.min.css">
+  <link rel="stylesheet" href="./static/css/academicons.min.css">
+  <link rel="stylesheet" href="./static/css/index.css">
+  <link rel="icon" href="./static/images/favicon.svg">
+
+  <script src="./static/js/jquery.min.js"></script>
+  <script src="./static/js/bulma-carousel.min.js"></script>
+  <script src="./static/js/bulma-slider.min.js"></script>
+  <script src="./static/js/index.js"></script>
+</head>
+<body>
+
+<nav class="navbar" role="navigation" aria-label="main navigation">
+  <div class="navbar-brand">
+    <a role="button" class="navbar-burger" aria-label="menu" aria-expanded="false">
+      <span aria-hidden="true"></span>
+      <span aria-hidden="true"></span>
+      <span aria-hidden="true"></span>
+    </a>
+  </div>
+  <div class="navbar-menu">
+    <div class="navbar-start" style="flex-grow: 1; justify-content: center;">
+      <a class="navbar-item" href="https://zlatanajanovic.com/">
+        <span class="icon">
+          <i class="fas fa-home"></i>
+        </span>
+      </a>
+
+      <div class="navbar-item has-dropdown is-hoverable">
+        <a class="navbar-link">
+          More Research
+        </a>
+        <div class="navbar-dropdown">
+          <a class="navbar-item" href="https://askdagger.github.io/">
+            ASkDAgger
+          </a>
+          <a class="navbar-item" href="https://llm-tale.github.io/">
+            LLM-TALE
+          </a>
+        </div>
+      </div>
+    </div>
+  </div>
+</nav>
+
+
+<section class="hero">
+  <div class="hero-body">
+    <div class="container is-max-desktop">
+      <div class="columns is-centered">
+        <div class="column has-text-centered">
+          <h1 class="title is-1 publication-title">
+            Sequentially Teaching Sequential Tasks (ST)<sup>2</sup>:
+            Teaching Robots Long-horizon Manipulation Skills
+          </h1>
+
+          <div class="venue-badge">
+            <!-- Venue per the RWTH publications record (DOI 10.1109/MRA.2026.3650853). Edit if needed. -->
+            <a href="https://doi.org/10.1109/MRA.2026.3650853" target="_blank" rel="noopener">IEEE Robotics &amp; Automation Magazine</a>
+          </div>
+
+          <div class="is-size-5 publication-authors">
+            <span class="author-block">
+              <a href="https://zlatanajanovic.com/">Zlatan Ajanović</a><sup>*1</sup>,</span>
+            <span class="author-block">
+              Ravi Prakash<sup>*2</sup>,</span>
+            <span class="author-block">
+              Leandro de Souza Rosa<sup>*3</sup>,</span>
+            <span class="author-block">
+              <a href="https://www.tudelft.nl/staff/j.kober/">Jens Kober</a><sup>4</sup></span>
+          </div>
+
+          <div class="is-size-5 publication-authors">
+            <span class="author-block"><sup>1</sup>RWTH Aachen University,</span>
+            <span class="author-block"><sup>2</sup>Indian Institute of Science Bengaluru,</span>
+            <span class="author-block"><sup>3</sup>Alma Mater Studiorum Università di Bologna,</span>
+            <span class="author-block"><sup>4</sup>Delft University of Technology</span>
+          </div>
+          <div class="equal-contribution">
+            <sup>*</sup>Equal contribution. The authors were affiliated with TU Delft at the time of the study.
+          </div>
+
+          <div class="column has-text-centered">
+            <div class="publication-links">
+              <!-- PDF Link. -->
+              <span class="link-block">
+                <a href="https://arxiv.org/pdf/2510.21046"
+                   class="external-link button is-normal is-rounded is-dark" target="_blank" rel="noopener">
+                  <span class="icon">
+                    <i class="fas fa-file-pdf"></i>
+                  </span>
+                  <span>Paper</span>
+                </a>
+              </span>
+              <!-- arXiv Link. -->
+              <span class="link-block">
+                <a href="https://arxiv.org/abs/2510.21046"
+                   class="external-link button is-normal is-rounded is-dark" target="_blank" rel="noopener">
+                  <span class="icon">
+                    <i class="ai ai-arxiv"></i>
+                  </span>
+                  <span>arXiv</span>
+                </a>
+              </span>
+              <!-- Publisher Link. -->
+              <span class="link-block">
+                <a href="https://doi.org/10.1109/MRA.2026.3650853"
+                   class="external-link button is-normal is-rounded is-dark" target="_blank" rel="noopener">
+                  <span class="icon">
+                    <i class="ai ai-ieee"></i>
+                  </span>
+                  <span>IEEE Xplore</span>
+                </a>
+              </span>
+              <!-- Video Link: points to the video section below; swap for the YouTube link once online. -->
+              <span class="link-block">
+                <a href="#video"
+                   class="external-link button is-normal is-rounded is-dark">
+                  <span class="icon">
+                    <i class="fab fa-youtube"></i>
+                  </span>
+                  <span>Video</span>
+                </a>
+              </span>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+
+<!-- Teaser video. PLACEHOLDER: add static/videos/teaser.mp4 and delete the badge div. -->
+<section class="hero teaser">
+  <div class="container is-max-desktop">
+    <div class="hero-body">
+      <div class="video-frame">
+        <video id="teaser" autoplay muted loop playsinline poster="./static/images/teaser_poster.jpg">
+          <source src="./static/videos/teaser.mp4" type="video/mp4">
+        </video>
+        <div class="video-placeholder-badge">
+          <span class="icon"><i class="fas fa-video"></i></span>
+          Teaser video coming soon
+          <small>placeholder: static/videos/teaser.mp4</small>
+        </div>
+      </div>
+      <h2 class="subtitle has-text-centered">
+        <span class="dnerf">(ST)<sup>2</sup></span> lets a human teacher split a long-horizon task into segments
+        <em>while</em> demonstrating it, so the robot can be taught, corrected, and re-taught one step at a time.
+      </h2>
+    </div>
+  </div>
+</section>
+
+
+<section class="section">
+  <div class="container is-max-desktop">
+    <!-- Abstract. -->
+    <div class="columns is-centered has-text-centered">
+      <div class="column is-four-fifths">
+        <h2 class="title is-3">Abstract</h2>
+        <div class="content has-text-justified">
+          <p>
+            Learning from demonstration has proved itself useful for teaching robots complex skills with high
+            sample efficiency. However, teaching long-horizon tasks with multiple skills is challenging as
+            deviations tend to accumulate, the distributional shift becomes more evident, and human teachers
+            become fatigued over time, thereby increasing the likelihood of failure.
+          </p>
+          <p>
+            To address these challenges, we introduce (ST)<sup>2</sup>, a sequential method for learning
+            long-horizon manipulation tasks that allows users to control the teaching flow by specifying key
+            points, enabling structured and incremental demonstrations. Using this framework, we study how users
+            respond to two teaching paradigms: (i) a traditional <em>monolithic</em> approach, in which users
+            demonstrate the entire task trajectory at once, and (ii) a <em>sequential</em> approach, in which the
+            task is segmented and demonstrated step by step.
+          </p>
+          <p>
+            We conducted an extensive user study on the restocking task with 16 participants in a realistic retail
+            store environment, evaluating the user preferences and effectiveness of the methods. User-level
+            analysis showed superior performance for the sequential approach in most cases (10 users), compared
+            with the monolithic approach (5 users), with one tie. Our subjective results indicate that some
+            teachers prefer sequential teaching, as it allows them to teach complicated tasks iteratively, while
+            others prefer teaching in one go due to its simplicity.
+          </p>
+        </div>
+      </div>
+    </div>
+    <!--/ Abstract. -->
+
+    <!-- Paper video. PLACEHOLDER: replace the .video-frame block with the YouTube iframe below once online.
+    <div class="publication-video">
+      <iframe src="https://www.youtube.com/embed/VIDEO_ID?rel=0&amp;showinfo=0"
+              frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
+    </div>
+    -->
+    <div class="columns is-centered has-text-centered" id="video">
+      <div class="column is-four-fifths">
+        <h2 class="title is-3">Video</h2>
+        <div class="video-frame">
+          <video id="paper-video" controls playsinline poster="./static/images/teaser_poster.jpg">
+            <source src="./static/videos/st2_paper_video.mp4" type="video/mp4">
+          </video>
+          <div class="video-placeholder-badge">
+            <span class="icon"><i class="fab fa-youtube"></i></span>
+            Paper video coming soon
+            <small>placeholder: static/videos/st2_paper_video.mp4 or YouTube embed</small>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!--/ Paper video. -->
+  </div>
+</section>
+
+
+<section class="section">
+  <div class="container is-max-desktop">
+
+    <!-- Method. -->
+    <div class="columns is-centered">
+      <div class="column is-full-width">
+        <div class="content">
+          <h2 class="title is-3">(ST)<sup>2</sup>: Sequentially Teaching Sequential Tasks</h2>
+          <p>
+            Kinesthetic teaching is the most common way to demonstrate a manipulation skill, but for a
+            long-horizon task it is physically tiring and mentally demanding: the teacher has to think several
+            steps ahead while guiding the arm, and the quality of the demonstration drops as fatigue builds up.
+            Monolithic trajectories are also prone to error accumulation and distributional shift, and a small
+            mistake late in the demonstration can mean redoing everything.
+          </p>
+          <p>
+            (ST)<sup>2</sup> gives the teacher explicit control over the teaching flow. The task
+            <em>T = {T<sub>1</sub>, …, T<sub>m</sub>}</em> is demonstrated as a sequence of user-defined segments:
+            the teacher inserts a key-point whenever a sub-goal is reached (a top grasp, a collision-free reach,
+            a placement, a gripper release), and a separate
+            <a href="https://doi.org/10.1109/TMECH.2023.3295249" target="_blank" rel="noopener">SIMPLe</a> policy
+            (a time-dependent Gaussian-process policy with an uncertainty-aware Cartesian impedance controller) is
+            learned for each segment. The robot then executes the segments in sequence, and the teacher can
+            replay the segments that already work, take over at any key-point, and provide a new demonstration
+            from there. Five high-level commands, issued by spoken language, steer the process:
+          </p>
+          <ul class="command-list">
+            <li><code>c_demo</code><span>Switch to demonstration mode: the arm becomes compliant and the teacher guides it kinesthetically while the segment is recorded.</span></li>
+            <li><code>c_insertKP</code><span>Insert a key-point: close the current segment, add it to the dataset, and start a new one.</span></li>
+            <li><code>c_next</code><span>Execute the current policy autonomously until the next key-point; kinesthetic corrections during execution are appended to the segment.</span></li>
+            <li><code>c_reset</code><span>Return the robot and the environment to the start of the episode.</span></li>
+            <li><code>c_auto</code><span>Execute the complete task autonomously by running the segment policies one after another.</span></li>
+          </ul>
+          <p>
+            After every interaction the policies are retrained on the updated dataset, which takes a few seconds
+            on a laptop without a GPU. Because a new demonstration always starts from the end point of the
+            previous segment, no extra machinery is needed to make the transitions between segments smooth, and
+            the teacher can change the granularity of the segmentation at any time by overwriting a segment and
+            everything after it.
+          </p>
+
+          <figure class="paper-figure">
+            <img src="./static/images/teaching_flow.png" alt="Teaching flow of user 03 with (ST)^2 shown as a rooted branching tree.">
+            <figcaption>
+              Teaching flow of user #03 with (ST)<sup>2</sup>. The top line is the full restocking task with the
+              ten sub-task boundaries T1–T10; crosses mark the key-points this user inserted. Each branch is a
+              correction round: the robot executed the earlier segments autonomously up to the branch point,
+              and the user demonstrated new segments from there.
+            </figcaption>
+          </figure>
+        </div>
+      </div>
+    </div>
+    <!--/ Method. -->
+
+    <!-- Task. -->
+    <div class="columns is-centered">
+      <div class="column is-full-width">
+        <div class="content">
+          <h2 class="title is-3">Supermarket Restocking Task</h2>
+          <p>
+            The user study uses a real-world restocking task in a mock retail store: a Franka Emika Panda has to
+            move a milk or yogurt carton from a storage box to a shelf. The box only allows a top grasp, but a
+            top-grasped carton cannot be placed on the upper shelf, so the robot has to put the carton down on
+            the table, re-grasp it from the side, and only then move it to the shelf. The task is long enough to
+            make the differences between monolithic and sequential teaching visible, while remaining safe and
+            reproducible across participants.
+          </p>
+
+          <figure class="paper-figure">
+            <img src="./static/images/restocking_main.jpg" alt="Restocking task: initial state with the carton in the box, intermediate placement for re-grasping, final state on the shelf.">
+            <figcaption>
+              The restocking task. A) Initial state, carton in the box. B) Intermediate placement on the table for
+              re-grasping. C) Final state, carton on the shelf. Arrows on the left mark the sub-tasks listed below.
+            </figcaption>
+          </figure>
+
+          <div class="columns is-centered">
+            <div class="column is-8">
+              <div class="scroll-x">
+                <table class="table is-striped is-fullwidth compact-table">
+                  <thead>
+                    <tr><th class="is-tight">Task ID</th><th>Description</th><th class="is-tight">Component</th></tr>
+                  </thead>
+                  <tbody>
+                    <tr><td>T1</td><td>Move to reach carton</td><td>arm</td></tr>
+                    <tr><td>T2</td><td>Top grasp carton</td><td>gripper</td></tr>
+                    <tr><td>T3</td><td>Move out of the box</td><td>arm</td></tr>
+                    <tr><td>T4</td><td>Move above the location on the table</td><td>arm</td></tr>
+                    <tr><td>T5</td><td>Release the grasp</td><td>gripper</td></tr>
+                    <tr><td>T6</td><td>Reposition end-effector for side grasp</td><td>arm</td></tr>
+                    <tr><td>T7</td><td>Side grasp carton</td><td>gripper</td></tr>
+                    <tr><td>T8</td><td>Move to the shelf</td><td>arm</td></tr>
+                    <tr><td>T9</td><td>Release the object</td><td>gripper</td></tr>
+                    <tr><td>T10</td><td>Move out of the shelf</td><td>arm</td></tr>
+                  </tbody>
+                </table>
+              </div>
+              <p class="has-text-centered" style="font-size: 0.9rem; color: #666;">
+                One possible breakdown of the task into ten sub-tasks. Participants never saw this table; they
+                segmented the task according to their own intuition.
+              </p>
+            </div>
+          </div>
+          <p>
+            The task was analysed with Failure Mode and Effects Analysis (FMEA) principles before the study. We
+            identified sixteen error types across teaching (e.g., touching other objects, reaching joint limits,
+            non-perpendicular placing), task planning (skipping the re-grasp, placing at the reachability limit),
+            segmenting (too few or meaningless key-points), correcting (missing the moment to correct), and
+            setup (gripper malfunctions). Their frequencies during the study are reported in the results.
+          </p>
+        </div>
+      </div>
+    </div>
+    <!--/ Task. -->
+
+    <!-- User study. -->
+    <div class="columns is-centered">
+      <div class="column is-full-width">
+        <div class="content">
+          <h2 class="title is-3">User Study</h2>
+          <p>
+            Sixteen participants (3 female, 13 male, 22–40 years old) took part; 14 had no prior experience
+            with learning from demonstration and 9 had never interacted with a robot. Each session consisted of a
+            15-minute familiarisation with the compliant robot and both teaching methods, a 30-minute
+            experimental session in which the participant taught the restocking task with the monolithic method
+            and with (ST)<sup>2</sup> in random order (up to three attempts from scratch per method), and a
+            20-minute questionnaire session with the NASA Task Load Index and open-ended questions. The study was
+            approved by the TU Delft Human Research Ethics Committee.
+          </p>
+
+          <div class="rq-box">
+            <p><strong>RQ1:</strong> Is the (ST)<sup>2</sup> (sequential) method more user-friendly or effective than the monolithic method?</p>
+            <p><strong>RQ2:</strong> Under what conditions does one teaching method become preferable over the other?</p>
+          </div>
+
+          <p>
+            Our hypothesis was that users who manage to demonstrate the whole task in one attempt would prefer the
+            monolithic method for its simplicity and speed, while users whose robot fails to reproduce the
+            demonstration reliably would shift toward the sequential approach, which offers more control and more
+            opportunities to correct.
+          </p>
+        </div>
+      </div>
+    </div>
+    <!--/ User study. -->
+  </div>
+</section>
+
+
+<!-- Teaching videos. PLACEHOLDERS: add the mp4 files to static/videos/ and delete the badges. -->
+<section class="hero is-light is-small">
+  <div class="hero-body">
+    <div class="container">
+      <h2 class="title is-4 has-text-centered" style="margin-bottom: 1rem;">Teaching the restocking task</h2>
+      <div id="results-carousel" class="carousel results-carousel">
+        <div class="item">
+          <div class="video-frame">
+            <video id="video-monolithic" controls muted loop playsinline poster="./static/images/teaser_poster.jpg">
+              <source src="./static/videos/monolithic_teaching.mp4" type="video/mp4">
+            </video>
+            <div class="video-placeholder-badge">
+              <span class="icon"><i class="fas fa-video"></i></span>
+              Monolithic teaching
+              <small>placeholder: monolithic_teaching.mp4</small>
+            </div>
+          </div>
+          <div class="video-label">Monolithic teaching: one demonstration of the full task</div>
+        </div>
+        <div class="item">
+          <div class="video-frame">
+            <video id="video-st2" controls muted loop playsinline poster="./static/images/teaser_poster.jpg">
+              <source src="./static/videos/st2_teaching.mp4" type="video/mp4">
+            </video>
+            <div class="video-placeholder-badge">
+              <span class="icon"><i class="fas fa-video"></i></span>
+              (ST)<sup>2</sup> teaching
+              <small>placeholder: st2_teaching.mp4</small>
+            </div>
+          </div>
+          <div class="video-label">(ST)<sup>2</sup> teaching: key-points, segments, and corrections</div>
+        </div>
+        <div class="item">
+          <div class="video-frame">
+            <video id="video-autonomous" controls muted loop playsinline poster="./static/images/teaser_poster.jpg">
+              <source src="./static/videos/autonomous_execution.mp4" type="video/mp4">
+            </video>
+            <div class="video-placeholder-badge">
+              <span class="icon"><i class="fas fa-video"></i></span>
+              Autonomous execution
+              <small>placeholder: autonomous_execution.mp4</small>
+            </div>
+          </div>
+          <div class="video-label">Autonomous execution of the learned (ST)<sup>2</sup> policies</div>
+        </div>
+        <div class="item">
+          <div class="video-frame">
+            <video id="video-correction" controls muted loop playsinline poster="./static/images/teaser_poster.jpg">
+              <source src="./static/videos/correction.mp4" type="video/mp4">
+            </video>
+            <div class="video-placeholder-badge">
+              <span class="icon"><i class="fas fa-video"></i></span>
+              Local correction
+              <small>placeholder: correction.mp4</small>
+            </div>
+          </div>
+          <div class="video-label">Kinesthetic correction of a single segment</div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+
+<section class="section">
+  <div class="container is-max-desktop">
+
+    <!-- Results. -->
+    <div class="columns is-centered">
+      <div class="column is-full-width">
+        <div class="content">
+          <h2 class="title is-3">Results</h2>
+
+          <div class="key-numbers">
+            <div class="kn"><div class="num">16</div><div class="lbl">participants</div></div>
+            <div class="kn"><div class="num">10 vs. 5</div><div class="lbl">users who did better with (ST)<sup>2</sup> vs. monolithic (1 tie)</div></div>
+            <div class="kn"><div class="num">65.5 %</div><div class="lbl">success rate with (ST)<sup>2</sup> (51.1 % monolithic)</div></div>
+            <div class="kn"><div class="num">8 vs. 6</div><div class="lbl">users who preferred (ST)<sup>2</sup> vs. monolithic (2 both)</div></div>
+          </div>
+
+          <h3 class="title is-4">User preferences</h3>
+          <p>
+            Users were asked which method they preferred regarding comfort, trust, expectations, and their
+            perception of the robot's understanding of the task. Preferences are clearly split between the two
+            methods, yet most users declared being comfortable with, and trusting, both of them. A notable share
+            of users favoured (ST)<sup>2</sup> for trust, met expectations, and the feeling that the robot
+            understood the task.
+          </p>
+          <figure class="paper-figure narrow framed">
+            <img src="./static/images/preferences.png" alt="Bar chart of user preferences and subjective evaluation per question.">
+            <figcaption>Distribution of users' preferences and subjective evaluation regarding the two teaching methods.</figcaption>
+          </figure>
+
+          <h3 class="title is-4">Subjective workload (NASA-TLX)</h3>
+          <p>
+            The monolithic method was rated as less <em>physically</em> demanding (overall p = 0.01), which users
+            attributed to the single in-one-go demonstration. (ST)<sup>2</sup> was perceived as less
+            <em>temporally</em> demanding (overall p = 0.03): with the monolithic policy, users spent a lot of
+            time correcting, since finding the right moment to start and stop a correction proved hard for
+            non-experts. Although one could expect a higher mental demand from having to decide where to put
+            key-points, no significant difference in mental demand was found (p = 0.42), and there were no
+            significant differences in perceived performance, effort, or frustration.
+          </p>
+          <figure class="paper-figure framed">
+            <div class="scroll-x">
+              <img src="./static/images/workloads_mono.png" alt="NASA-TLX workloads for users who preferred monolithic teaching." style="min-width: 640px;">
+            </div>
+            <figcaption>(a) Users who preferred monolithic teaching.</figcaption>
+          </figure>
+          <figure class="paper-figure framed">
+            <div class="scroll-x">
+              <img src="./static/images/workloads_seg.png" alt="NASA-TLX workloads for users who preferred (ST)^2." style="min-width: 640px;">
+            </div>
+            <figcaption>
+              (b) Users who preferred (ST)<sup>2</sup>. NASA-TLX workloads normalised (Z-score) per user, smaller
+              is better. Users who preferred both methods are counted in both plots.
+            </figcaption>
+          </figure>
+
+          <div class="columns">
+            <div class="column">
+              <div class="user-quote">
+                <p>“It felt more satisfying getting the robot to perform the complete ‘choreography’ correctly in a single movement.”
+                  <span class="quote-source">User #03, on the monolithic method</span></p>
+              </div>
+              <div class="user-quote">
+                <p>“Potentially, I would have to re-demonstrate everything to the robot if it fails.”
+                  <span class="quote-source">User #16, on the monolithic method</span></p>
+              </div>
+            </div>
+            <div class="column">
+              <div class="user-quote">
+                <p>“This task consists of sub-tasks. So I think I am more comfortable as a demonstrator to achieve the final goal if I can teach tasks separately. Also, I do not need to consider the optimization of the whole task, which reduces the need to think.”
+                  <span class="quote-source">User #02, on (ST)<sup>2</sup></span></p>
+              </div>
+              <div class="user-quote">
+                <p>“Yes, it allowed me to ‘explain’ the task in segments, which is also how I prefer to do demonstrations to humans. Also, a small mistake felt less ‘stressful’.”
+                  <span class="quote-source">User #07, on (ST)<sup>2</sup></span></p>
+              </div>
+            </div>
+          </div>
+
+          <h3 class="title is-4">Task performance</h3>
+          <p>
+            Task performance is scored as 1 / #trials, the inverse of the number of attempts needed for a
+            successful execution. Over all users, the scores of the two methods are not significantly different
+            (p = 0.98), with success rates of 51.1 % for the monolithic method and 65.5 % for
+            (ST)<sup>2</sup>. At the user level, 10 users did better with the sequential approach, 5 with the
+            monolithic approach, and one tied. We attribute this to the teaching flow: (ST)<sup>2</sup> lets users
+            focus their corrections on the problematic segment only, so a successful task is reached in fewer
+            runs.
+          </p>
+          <figure class="paper-figure framed">
+            <img src="./static/images/scores.png" alt="Task performance score distributions split by preferred method.">
+            <figcaption>
+              Task performance score distribution, split by the user's preferred method (users who preferred both
+              are counted in both plots). Higher is better.
+            </figcaption>
+          </figure>
+          <div class="user-quote">
+            <p>“I prefer the (ST)<sup>2</sup> method because I was able to correct just after a certain step. If everything was good up to that point, I could ‘save my work’.”
+              <span class="quote-source">User #05, on (ST)<sup>2</sup></span></p>
+          </div>
+
+          <h3 class="title is-4">Quality of the learned policies</h3>
+          <p>
+            Policies learned with (ST)<sup>2</sup> produce smoother trajectories, both in Cartesian space and in
+            the commanded torques, while completing the task in about the same time and with a higher success
+            rate. This supports the assumption that teachers give better demonstrations and corrections when they
+            control the segmentation.
+          </p>
+          <div class="columns is-centered">
+            <div class="column is-9">
+              <div class="scroll-x">
+                <table class="table is-striped is-fullwidth compact-table has-text-centered">
+                  <thead>
+                    <tr><th></th><th>Trajectory jerk (×10<sup>4</sup>)</th><th>Torque jerk (×10<sup>10</sup>)</th><th>Execution time (s)</th></tr>
+                  </thead>
+                  <tbody>
+                    <tr><th>Monolithic</th><td>10.5 ± 9.99</td><td>21.1 ± 32.5</td><td>46.1 ± 11.5</td></tr>
+                    <tr><th>(ST)<sup>2</sup></th><td>8.91 ± 3.05</td><td>7.54 ± 4.11</td><td>46.3 ± 11.8</td></tr>
+                  </tbody>
+                </table>
+              </div>
+              <p class="has-text-centered" style="font-size: 0.9rem; color: #666;">
+                Frobenius norms of the jerk product matrices (mean ± std. dev.) and average policy time to complete the task successfully.
+              </p>
+            </div>
+          </div>
+
+          <h3 class="title is-4">Learned behaviour</h3>
+          <p>
+            The mean trajectories and their variability across users are similar for both methods, which shows
+            that the task design leaves participants freedom in how they segment while keeping the resulting
+            policies comparable, so the two frameworks can be compared directly.
+          </p>
+          <div class="columns is-centered">
+            <div class="column is-5">
+              <figure class="paper-figure framed">
+                <img src="./static/images/learned_monolithic.png" alt="Mean trajectory and variance across users for the monolithic policy.">
+                <figcaption>Monolithic policy: mean trajectory and variability across users.</figcaption>
+              </figure>
+            </div>
+            <div class="column is-5">
+              <figure class="paper-figure framed">
+                <img src="./static/images/learned_st2.png" alt="Mean trajectory and variance across users for the (ST)^2 policy.">
+                <figcaption>(ST)<sup>2</sup> policy: mean trajectory and variability across users.</figcaption>
+              </figure>
+            </div>
+          </div>
+
+          <h3 class="title is-4">Comparison against automatic segmentation</h3>
+          <p>
+            Automatic segmentation methods need a complete demonstration before they can segment it, and they
+            cluster points by proximity without a guaranteed meaning for the teacher. In the example below, a
+            demonstration by user #16 is segmented automatically with a physically-consistent dynamical-systems
+            method; the light-blue segment mixes points from fetching the carton with points from placing it on
+            the shelf, which would be ambiguous for a policy trained on it. The key-points set by the user, on the
+            other hand, closely follow the sub-task boundaries of the task breakdown.
+          </p>
+          <figure class="paper-figure narrow framed">
+            <img src="./static/images/auto_segmentation.png" alt="Automatically segmented trajectory of user 16 with user key-points and sub-task boundaries overlaid.">
+            <figcaption>
+              Automatic segmentation of user #16's demonstration (segments indicated by colour). The user-defined
+              key-points (blue crosses, K) often match the sub-task boundaries (red diamonds, T).
+            </figcaption>
+          </figure>
+
+          <h3 class="title is-4">FMEA error frequencies</h3>
+          <p>
+            A large share of trials contained at least one of the errors identified in the FMEA analysis (76 % for
+            monolithic, 54.5 % for (ST)<sup>2</sup>), which confirms that the task is challenging enough for the
+            study. Errors involving other objects or several sub-tasks occurred more often with the monolithic
+            method; with (ST)<sup>2</sup>, users reached the joint limits more often, which we attribute to
+            disregarding the path taken between segments.
+          </p>
+          <div class="scroll-x">
+            <table class="table is-striped is-fullwidth compact-table has-text-centered">
+              <thead>
+                <tr><th>Error code</th><th>ET01</th><th>ET02</th><th>ET03</th><th>ET04</th><th>ET05</th><th>ET06</th><th>ET07</th><th>ET08</th><th>ET09</th><th>EP01</th><th>EP02</th><th>EG00</th></tr>
+              </thead>
+              <tbody>
+                <tr><th>Monolithic</th><td>16.27</td><td>0</td><td>13.95</td><td>18.60</td><td>6.97</td><td>4.65</td><td>2.32</td><td>6.97</td><td>0</td><td>4.65</td><td>2.32</td><td>37.2</td></tr>
+                <tr><th>(ST)<sup>2</sup></th><td>12.12</td><td>0</td><td>3.03</td><td>9.09</td><td>0</td><td>0</td><td>6.06</td><td>0</td><td>6.06</td><td>0</td><td>0</td><td>12.12</td></tr>
+              </tbody>
+            </table>
+          </div>
+          <p class="has-text-centered" style="font-size: 0.9rem; color: #666;">
+            Frequency of each error (% of trials). ET: teaching errors, EP: task-planning errors, EG00: gripper malfunction. Errors that did not occur are omitted.
+          </p>
+        </div>
+      </div>
+    </div>
+    <!--/ Results. -->
+
+    <!-- Takeaways. -->
+    <div class="columns is-centered">
+      <div class="column is-full-width">
+        <div class="content">
+          <h2 class="title is-3">Takeaways</h2>
+          <ul>
+            <li>
+              Letting the teacher segment a long-horizon task on the fly reduces the perceived temporal demand,
+              because corrections can be focused on the segment that failed instead of the whole demonstration.
+            </li>
+            <li>
+              Preferences are split and did not align with task success: some users value the control of
+              sequential teaching, others the simplicity of a single demonstration. Perceived usability and
+              actual performance can diverge, so both need to be measured.
+            </li>
+            <li>
+              (ST)<sup>2</sup> policies are smoother than monolithic ones, with the same execution time and a
+              higher success rate at the user level.
+            </li>
+            <li>
+              Future work: alternative segmentation interfaces, a broader set of tasks of varying length and
+              complexity, and long-term studies of how teaching strategies evolve as users gain experience.
+            </li>
+          </ul>
+        </div>
+      </div>
+    </div>
+    <!--/ Takeaways. -->
+
+  </div>
+</section>
+
+
+<section class="section" id="BibTeX">
+  <div class="container is-max-desktop content">
+    <h2 class="title">BibTeX</h2>
+    <pre><code>@article{ajanovic2026st2,
+  author  = {Ajanovi\'{c}, Zlatan and Prakash, Ravi and de Souza Rosa, Leandro and Kober, Jens},
+  title   = {Sequentially Teaching Sequential Tasks $(ST)^2$: Teaching Robots Long-Horizon Manipulation Skills},
+  journal = {IEEE Robotics \& Automation Magazine},
+  year    = {2026},
+  month   = {March},
+  volume  = {33},
+  number  = {1},
+  pages   = {130--141},
+  doi     = {10.1109/MRA.2026.3650853}
+}</code></pre>
+  </div>
+</section>
+
+
+<section class="section" style="padding-top: 0;">
+  <div class="container is-max-desktop content">
+    <h2 class="title is-4">Acknowledgements</h2>
+    <p style="font-size: 0.95rem;">
+      The authors would like to thank Giovanni Franzese and Marta Ferraz for their valuable discussions and
+      assistance at various stages of this work. LSR was sponsored within the SERICS (SEcurity and RIghts in the
+      CyberSpace) programme and received funding from the European Union Next-Generation EU (Piano Nazionale di
+      Ripresa e Resilienza (PNRR), Missione 4 Componente 2, Investimento 1.3, D.D. 1555 11/10/2022, PE00000013,
+      and PE7, CUP J33C22002810001, D.D. 341 15/03/2022, PE00000014). RP is sponsored by ARTPARK, IISc Bangalore.
+      This project is made possible by a contribution from the National Growth Fund program NXTGEN Hightech. This
+      work reflects only the authors' views and opinions; neither the European Union nor the European Commission
+      can be considered responsible for them. This work involved human subjects in its research; approval of all
+      ethical and experimental procedures and protocols was granted by TU Delft.
+    </p>
+  </div>
+</section>
+
+
+<footer class="footer">
+  <div class="container">
+    <div class="content has-text-centered">
+      <a class="icon-link" href="https://arxiv.org/pdf/2510.21046" target="_blank" rel="noopener">
+        <i class="fas fa-file-pdf"></i>
+      </a>
+    </div>
+    <div class="columns is-centered">
+      <div class="column is-8">
+        <div class="content">
+          <p>
+            This website is licensed under a <a rel="license"
+            href="http://creativecommons.org/licenses/by-sa/4.0/">Creative Commons Attribution-ShareAlike 4.0
+            International License</a>.
+          </p>
+          <p>
+            The template of this website is borrowed from <a href="https://nerfies.github.io">Nerfies</a>,
+            created by <a href="https://keunhong.com">Keunhong Park</a>, in the version used by
+            <a href="https://askdagger.github.io/">ASkDAgger</a>.
+          </p>
+        </div>
+      </div>
+    </div>
+  </div>
+</footer>
+
+</body>
+</html>
