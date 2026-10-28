@@ -236,6 +236,9 @@ exclude:
   - purgecss.config.js
   - README.md
   - readme_preview/
+  - st2/README.md
+  - st2/static/videos/README.md
+  - st2-website.zip
   - gems/
   - migrations/
   - vendor

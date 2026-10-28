@@ -1,0 +1,9 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64">
+  <rect width="64" height="64" rx="12" fill="#5989cf"/>
+  <!-- three segments joined by key-points -->
+  <polyline points="10,44 24,24 40,38 54,18" fill="none" stroke="#ffffff" stroke-width="5" stroke-linecap="round" stroke-linejoin="round"/>
+  <circle cx="10" cy="44" r="5" fill="#cde4ff"/>
+  <circle cx="24" cy="24" r="5" fill="#cde4ff"/>
+  <circle cx="40" cy="38" r="5" fill="#cde4ff"/>
+  <circle cx="54" cy="18" r="5" fill="#cde4ff"/>
+</svg>
