@@ -5,6 +5,7 @@ date: 2026-10-28 10:00:00
 description: Announcing our book chapter proposing a ladder of robot autonomy levels for human-in-the-loop systems.
 tags: robotics autonomy human-in-the-loop
 categories: research
+permalink: /robot-autonomy-levels/
 ---
 
 Robots can now pick, place, assemble, navigate, fly, dive and even fold laundry with impressive skill. Look closely at almost any real deployment, though, and you will still find a human in the loop: someone who teaches the robot, watches over it, corrects it, or takes over when something goes wrong.

@@ -5,4 +5,4 @@ inline: true
 related_posts: false
 ---
 
-New blog post on our upcoming book chapter: <a href="/blog/2026/robot-autonomy-levels/">Who is in charge? Robot autonomy levels for human-in-the-loop systems</a>.
+New blog post on our upcoming book chapter: <a href="/robot-autonomy-levels/">Who is in charge? Robot autonomy levels for human-in-the-loop systems</a>.
